@@ -1,0 +1,363 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Dark Theme */
+  :root,
+  .dark {
+    --background: 0 0% 7%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 9%;
+    --card-foreground: 0 0% 98%;
+    --primary: 255 55% 56%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 240 5% 65%;
+    --accent: 0 0% 15%;
+    --accent-foreground: 0 0% 98%;
+    --border: 240 4% 16%;
+    --input: 240 4% 16%;
+    --ring: 255 55% 56%;
+    --radius: 6px;
+  }
+
+  /* Light Theme - Professional SaaS */
+  .light {
+    --background: 220 20% 98%;
+    --foreground: 220 25% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 10%;
+    --primary: 255 55% 56%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 25% 10%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 10% 46%;
+    --accent: 220 14% 96%;
+    --accent-foreground: 220 25% 10%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 255 55% 56%;
+    --radius: 6px;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* ===================== */
+  /* LIGHT THEME OVERRIDES */
+  /* ===================== */
+
+  .light body {
+    background-color: #F9FAFB !important;
+  }
+
+  .light .bg-zinc-950 {
+    background-color: #F9FAFB !important;
+  }
+
+  .light .bg-zinc-900 {
+    background-color: #FFFFFF !important;
+  }
+
+  .light .bg-zinc-800 {
+    background-color: #F3F4F6 !important;
+  }
+
+  .light .bg-zinc-800\/50 {
+    background-color: rgba(243, 244, 246, 0.5) !important;
+  }
+
+  .light .border-zinc-800 {
+    border-color: #E5E7EB !important;
+  }
+
+  .light .border-zinc-700 {
+    border-color: #D1D5DB !important;
+  }
+
+  .light .border-zinc-700\/50 {
+    border-color: rgba(209, 213, 219, 0.5) !important;
+  }
+
+  .light .border-zinc-600 {
+    border-color: #9CA3AF !important;
+  }
+
+  .light .text-white {
+    color: #111827 !important;
+  }
+
+  .light .text-zinc-200 {
+    color: #1F2937 !important;
+  }
+
+  .light .text-zinc-300 {
+    color: #374151 !important;
+  }
+
+  .light .text-zinc-400 {
+    color: #6B7280 !important;
+  }
+
+  .light .text-zinc-500 {
+    color: #9CA3AF !important;
+  }
+
+  .light .text-zinc-600 {
+    color: #D1D5DB !important;
+  }
+
+  .light .bg-zinc-700 {
+    background-color: #E5E7EB !important;
+  }
+
+  .light .bg-zinc-700\/50 {
+    background-color: rgba(229, 231, 235, 0.5) !important;
+  }
+
+  /* Sidebar hover - purple background, white text */
+  .light .hover\:bg-zinc-800:hover {
+    background-color: #6C5DD3 !important;
+  }
+
+  .light .hover\:bg-zinc-700:hover {
+    background-color: #5A4FCF !important;
+  }
+
+  .light .hover\:border-zinc-700:hover {
+    border-color: #D1D5DB !important;
+  }
+
+  .light .hover\:border-zinc-600:hover {
+    border-color: #9CA3AF !important;
+  }
+
+  .light .hover\:text-white:hover {
+    color: #ffffff !important;
+  }
+
+  .light .hover\:text-zinc-200:hover {
+    color: #E0E7FF !important;
+  }
+
+  .light .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: #D1D5DB;
+  }
+
+  .light .scrollbar-thin {
+    scrollbar-color: #D1D5DB transparent;
+  }
+
+  /* ======================== */
+  /* SEVERITY COLORS - LIGHT  */
+  /* ======================== */
+
+  /* CRITICAL - Red */
+  .light .bg-red-500\/10 {
+    background-color: rgba(239, 68, 68, 0.1) !important;
+  }
+  .light .border-red-500\/20,
+  .light .border-red-500\/30 {
+    border-color: rgba(239, 68, 68, 0.25) !important;
+  }
+  .light .text-red-400 {
+    color: #EF4444 !important;
+  }
+  .light .bg-red-500 {
+    background-color: #EF4444 !important;
+    color: #ffffff !important;
+  }
+
+  /* HIGH - Orange */
+  .light .bg-orange-500\/10 {
+    background-color: rgba(245, 158, 11, 0.1) !important;
+  }
+  .light .border-orange-500\/20,
+  .light .border-orange-500\/30 {
+    border-color: rgba(245, 158, 11, 0.25) !important;
+  }
+  .light .text-orange-400 {
+    color: #F59E0B !important;
+  }
+  .light .bg-orange-500 {
+    background-color: #F59E0B !important;
+    color: #ffffff !important;
+  }
+
+  /* MEDIUM - Purple (Primary) */
+  .light .bg-yellow-500\/10 {
+    background-color: rgba(108, 93, 211, 0.1) !important;
+  }
+  .light .border-yellow-500\/20,
+  .light .border-yellow-500\/30 {
+    border-color: rgba(108, 93, 211, 0.25) !important;
+  }
+  .light .text-yellow-400 {
+    color: #6C5DD3 !important;
+  }
+  .light .bg-yellow-500 {
+    background-color: #6C5DD3 !important;
+    color: #ffffff !important;
+  }
+
+  /* LOW - Cyan */
+  .light .bg-blue-500\/10 {
+    background-color: rgba(0, 168, 204, 0.1) !important;
+  }
+  .light .border-blue-500\/20,
+  .light .border-blue-500\/30 {
+    border-color: rgba(0, 168, 204, 0.25) !important;
+  }
+  .light .text-blue-400 {
+    color: #00A8CC !important;
+  }
+  .light .bg-blue-500 {
+    background-color: #00A8CC !important;
+    color: #ffffff !important;
+  }
+
+  /* PRIMARY PURPLE */
+  .light .bg-purple-500\/10 {
+    background-color: rgba(108, 93, 211, 0.1) !important;
+  }
+  .light .border-purple-500\/20,
+  .light .border-purple-500\/30 {
+    border-color: rgba(108, 93, 211, 0.25) !important;
+  }
+  .light .text-purple-400 {
+    color: #6C5DD3 !important;
+  }
+  .light .bg-purple-500 {
+    background-color: #6C5DD3 !important;
+    color: #ffffff !important;
+  }
+
+  /* SUCCESS - Green */
+  .light .bg-green-500\/10 {
+    background-color: rgba(34, 197, 94, 0.1) !important;
+  }
+  .light .border-green-500\/20,
+  .light .border-green-500\/30 {
+    border-color: rgba(34, 197, 94, 0.25) !important;
+  }
+  .light .text-green-400 {
+    color: #22C55E !important;
+  }
+  .light .bg-green-500 {
+    background-color: #22C55E !important;
+    color: #ffffff !important;
+  }
+
+  /* PRIMARY BUTTON */
+  .light .bg-blue-600 {
+    background-color: #6C5DD3 !important;
+  }
+  .light .hover\:bg-blue-500:hover {
+    background-color: #8B7CF6 !important;
+  }
+  .light .bg-blue-500\/10 {
+    background-color: rgba(108, 93, 211, 0.1) !important;
+  }
+
+  /* SIDEBAR ACTIVE */
+  .light .bg-zinc-800 {
+    background-color: #F3F4F6 !important;
+  }
+}
+
+/* ======================== */
+/* GLOBAL WHITE TEXT RULE   */
+/* ======================== */
+
+.bg-red-500, .bg-red-600,
+.bg-orange-500, .bg-orange-600,
+.bg-yellow-500, .bg-yellow-600,
+.bg-green-500, .bg-green-600,
+.bg-blue-500, .bg-blue-600,
+.bg-purple-500, .bg-purple-600,
+.bg-indigo-500, .bg-indigo-600,
+.bg-pink-500, .bg-pink-600,
+.bg-teal-500, .bg-teal-600,
+.bg-cyan-500, .bg-cyan-600,
+.bg-emerald-500, .bg-emerald-600,
+.bg-rose-500, .bg-rose-600,
+[class*="bg-red-500"], [class*="bg-red-600"],
+[class*="bg-orange-500"], [class*="bg-orange-600"],
+[class*="bg-yellow-500"], [class*="bg-yellow-600"],
+[class*="bg-green-500"], [class*="bg-green-600"],
+[class*="bg-blue-500"], [class*="bg-blue-600"],
+[class*="bg-purple-500"], [class*="bg-purple-600"],
+[class*="bg-indigo-500"], [class*="bg-indigo-600"],
+[class*="bg-pink-500"], [class*="bg-pink-600"],
+[class*="bg-teal-500"], [class*="bg-teal-600"],
+[class*="bg-cyan-500"], [class*="bg-cyan-600"],
+[class*="bg-emerald-500"], [class*="bg-emerald-600"],
+[class*="bg-rose-500"], [class*="bg-rose-600"] {
+  color: #ffffff !important;
+}
+
+.bg-red-500 *, .bg-red-600 *,
+.bg-orange-500 *, .bg-orange-600 *,
+.bg-yellow-500 *, .bg-yellow-600 *,
+.bg-green-500 *, .bg-green-600 *,
+.bg-blue-500 *, .bg-blue-600 *,
+.bg-purple-500 *, .bg-purple-600 *,
+.bg-indigo-500 *, .bg-indigo-600 *,
+.bg-pink-500 *, .bg-pink-600 *,
+.bg-teal-500 *, .bg-teal-600 *,
+.bg-cyan-500 *, .bg-cyan-600 *,
+.bg-emerald-500 *, .bg-emerald-600 *,
+.bg-rose-500 *, .bg-rose-600 *,
+[class*="bg-red-500"] *, [class*="bg-red-600"] *,
+[class*="bg-orange-500"] *, [class*="bg-orange-600"] *,
+[class*="bg-yellow-500"] *, [class*="bg-yellow-600"] *,
+[class*="bg-green-500"] *, [class*="bg-green-600"] *,
+[class*="bg-blue-500"] *, [class*="bg-blue-600"] *,
+[class*="bg-purple-500"] *, [class*="bg-purple-600"] *,
+[class*="bg-indigo-500"] *, [class*="bg-indigo-600"] *,
+[class*="bg-pink-500"] *, [class*="bg-pink-600"] *,
+[class*="bg-teal-500"] *, [class*="bg-teal-600"] *,
+[class*="bg-cyan-500"] *, [class*="bg-cyan-600"] *,
+[class*="bg-emerald-500"] *, [class*="bg-emerald-600"] *,
+[class*="bg-rose-500"] *, [class*="bg-rose-600"] * {
+  color: #ffffff !important;
+}
+
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(240 4% 16%) transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: hsl(240 4% 16%);
+    border-radius: 3px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(240 4% 25%);
+  }
+}
+
+.anime-counter {
+  display: inline-block;
+}
