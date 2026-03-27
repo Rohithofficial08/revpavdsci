@@ -8,7 +8,7 @@ import FindingCard from "@/components/dashboard/findings/FindingCard"
 import Pagination from "@/components/dashboard/Pagination"
 import EmptyState from "@/components/dashboard/EmptyState"
 import { FindingsPageSkeleton } from "@/components/dashboard/Skeletons"
-import { getScanEvents, getScanCategories } from "@/lib/api"
+import { getScanEvents, getScanCategories, getScan } from "@/lib/api"
 
 interface Finding {
   id: string
@@ -60,40 +60,62 @@ export default function FindingsPage() {
       const scanId = id as string
       const offset = (page - 1) * limit
       
-      const [eventsData, categoriesData] = await Promise.all([
+      // Map frontend filter types to backend category names
+      let categoryFilter = ""
+      if (filterType === "ml_anomaly") categoryFilter = "Anomaly"
+      if (filterType === "impossible_travel") categoryFilter = "Travel"
+      if (filterType === "rule") categoryFilter = "Rule"
+
+      const [eventsData, categoriesData, scanData] = await Promise.all([
         getScanEvents(scanId, { 
-          category: filterType, // Mapping 'type' filter to category for now
+          category: categoryFilter, 
           limit, 
           offset 
         }),
         getScanCategories(scanId),
+        getScan(scanId),
       ])
 
       // Map event fields to Finding interface
-      const mappedFindings: Finding[] = (eventsData.events || []).map((ev: any) => ({
-        id: ev.event_id,
-        severity: "high", // Mocked for visual consistency
-        title: ev.category,
-        detection_type: "ml_anomaly",
-        affected_users: ev.user_account ? [ev.user_account] : [],
-        affected_hosts: ev.computer ? [ev.computer] : [],
-        timestamp_start: ev.time_logged,
-        details: ev
-      }))
+      const mappedFindings: Finding[] = (eventsData.events || []).map((ev: any) => {
+        // Fix for 'Normal' title: give it a better title
+        const displayTitle = ev.category && ev.category !== "Normal" ? ev.category : "Threat Detected"
+        
+        return {
+          id: ev.event_id,
+          // Mapping severity based on risk context if available
+          severity: scanData.risk_score >= 7000 ? "high" : "medium",
+          title: displayTitle,
+          detection_type: "ml_anomaly",
+          affected_users: ev.user_account ? [ev.user_account] : [],
+          affected_hosts: ev.computer ? [ev.computer] : [],
+          timestamp_start: ev.time_logged,
+          details: ev
+        }
+      })
 
       setFindings(mappedFindings)
-      setTotalFindings(eventsData.total || 0)
-      setTotalPages(Math.ceil((eventsData.total || 0) / limit))
+      // Use total_threats from scanData as fallback for the total count
+      const total = scanData.total_threats || eventsData.total || 0
+      setTotalFindings(total)
+      setTotalPages(Math.ceil(total / limit))
 
-      // Transform categories to stats for the SeverityStats component
-      const bySeverity: Record<string, number> = {}
+      // Correctly sum event counts for each severity card
+      const bySeverity: Record<string, number> = {
+        critical: 0,
+        high: 0,
+        medium: 0,
+        low: 0,
+        info: 0
+      }
+
       categoriesData.categories?.forEach((cat: any) => {
         const severity = cat.risk_score >= 9 ? "critical" : cat.risk_score >= 7 ? "high" : cat.risk_score >= 4 ? "medium" : "low"
-        bySeverity[severity] = (bySeverity[severity] || 0) + 1 // Count categories of this severity
+        bySeverity[severity] += cat.event_count || 0
       })
       
       setStats({
-        total: categoriesData.count || 0,
+        total: eventsData.total || 0,
         by_severity: bySeverity,
         by_type: {}
       })
@@ -144,7 +166,7 @@ export default function FindingsPage() {
             <div>
               <h1 className="text-xl font-bold text-white">Findings</h1>
               <p className="text-xs text-zinc-500">
-                {totalFindings} detections found
+                {totalFindings} detections identified
               </p>
             </div>
           </div>

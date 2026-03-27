@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils"
 
 interface AnimatedGraphSectionProps {
   analysisId: string
-  chainId: string | null
+  selectedChain: any | null
 }
 
 interface GraphData {
@@ -15,27 +15,44 @@ interface GraphData {
   edges: { source: string; target: string; label?: string; technique?: string }[]
 }
 
-export default function AnimatedGraphSection({ analysisId, chainId }: AnimatedGraphSectionProps) {
+export default function AnimatedGraphSection({ analysisId, selectedChain }: AnimatedGraphSectionProps) {
   const [graph, setGraph] = useState<GraphData | null>(null)
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
   const [isPlaying, setIsPlaying] = useState(true)
   const [key, setKey] = useState(0)
 
   useEffect(() => {
-    if (chainId) loadGraph()
-  }, [chainId])
+    if (selectedChain) {
+      // Form the graph from the chain data
+      const steps = selectedChain.title.split(" → ")
+      const nodes = steps.map((step: string, i: number) => {
+        const timeMatch = step.match(/\[(.*?)\]/)
+        const label = step.replace(/\[.*?\]/, "").trim()
+        return {
+          id: `step-${i}`,
+          type: i === 0 ? "initial" : i === steps.length - 1 ? "impact" : "action",
+          label: label,
+          time: timeMatch ? timeMatch[1] : ""
+        }
+      })
+
+      const edges = []
+      for (let i = 0; i < nodes.length - 1; i++) {
+        edges.push({
+          source: nodes[i].id,
+          target: nodes[i+1].id,
+          label: "next-stage"
+        })
+      }
+
+      setGraph({ nodes, edges })
+      setKey(prev => prev + 1)
+    }
+  }, [selectedChain])
 
   const loadGraph = async () => {
-    if (!chainId) return
-    setLoading(true)
-    try {
-      const data = await apiFetch(`/api/v1/analyses/${analysisId}/chains/${chainId}/graph`)
-      setGraph(data)
-    } catch (err) {
-      console.error("Failed to load graph:", err)
-    } finally {
-      setLoading(false)
-    }
+    // Legacy support or if there's a specialized endpoint
+    // For now, we prefer the on-the-fly construction from data
   }
 
   const handleReplay = () => {

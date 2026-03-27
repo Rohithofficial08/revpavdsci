@@ -40,7 +40,7 @@ export default function FindingsTable({ findings, onViewAll }: FindingsTableProp
       <div className="flex items-center justify-between p-4 border-b border-zinc-800">
         <div className="flex items-center gap-2">
           <AlertTriangle className="w-4 h-4 text-orange-400" />
-          <h3 className="text-sm font-semibold text-white">Recent Findings</h3>
+          <h3 className="text-sm font-bold text-white">Recent Findings</h3>
           <span className="text-xs text-zinc-500 bg-zinc-800 px-2 py-0.5" style={{ borderRadius: "4px" }}>
             {findings.length}
           </span>
@@ -61,19 +61,19 @@ export default function FindingsTable({ findings, onViewAll }: FindingsTableProp
         <table className="w-full">
           <thead>
             <tr className="border-b border-zinc-800">
-              <th className="text-left text-[10px] font-medium text-zinc-500 uppercase tracking-wider px-4 py-3">
+              <th className="text-left text-[10px] font-bold text-zinc-500 uppercase tracking-wider px-4 py-3">
                 Severity
               </th>
-              <th className="text-left text-[10px] font-medium text-zinc-500 uppercase tracking-wider px-4 py-3">
+              <th className="text-left text-[10px] font-bold text-zinc-500 uppercase tracking-wider px-4 py-3">
                 Finding
               </th>
-              <th className="text-left text-[10px] font-medium text-zinc-500 uppercase tracking-wider px-4 py-3">
+              <th className="text-left text-[10px] font-bold text-zinc-500 uppercase tracking-wider px-4 py-3">
                 Type
               </th>
-              <th className="text-left text-[10px] font-medium text-zinc-500 uppercase tracking-wider px-4 py-3">
+              <th className="text-left text-[10px] font-bold text-zinc-500 uppercase tracking-wider px-4 py-3">
                 MITRE
               </th>
-              <th className="text-left text-[10px] font-medium text-zinc-500 uppercase tracking-wider px-4 py-3">
+              <th className="text-left text-[10px] font-bold text-zinc-500 uppercase tracking-wider px-4 py-3">
                 User
               </th>
             </tr>

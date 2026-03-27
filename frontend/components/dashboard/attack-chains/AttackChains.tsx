@@ -46,7 +46,7 @@ export default function AttackChains({ chains, onViewAll }: AttackChainsProps) {
       <div className="flex items-center justify-between p-4 border-b border-zinc-800">
         <div className="flex items-center gap-2">
           <GitBranch className="w-4 h-4 text-purple-400" />
-          <h3 className="text-sm font-semibold text-white">Attack Chains</h3>
+          <h3 className="text-sm font-bold text-white">Attack Chains</h3>
           <span className="text-xs text-zinc-500 bg-zinc-800 px-2 py-0.5" style={{ borderRadius: "4px" }}>
             {chains.length}
           </span>

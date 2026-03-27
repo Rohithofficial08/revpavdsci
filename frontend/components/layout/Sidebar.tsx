@@ -41,7 +41,6 @@ export default function Sidebar({ analysisId, collapsed, onToggle }: SidebarProp
 
   const mainNavItems = [
     { href: "/", label: "Dashboard", icon: Home },
-    { href: "/upload", label: "Upload Logs", icon: Upload },
   ]
 
   const analysisNavItems = analysisId
@@ -77,7 +76,7 @@ export default function Sidebar({ analysisId, collapsed, onToggle }: SidebarProp
                 exit={{ opacity: 0, width: 0 }}
                 className="overflow-hidden whitespace-nowrap"
               >
-                <span className="font-semibold text-white text-sm">Cyber Forensics</span>
+                <span className="font-bold text-white text-sm">Cyber Forensics</span>
               </motion.div>
             )}
           </AnimatePresence>
@@ -89,7 +88,7 @@ export default function Sidebar({ analysisId, collapsed, onToggle }: SidebarProp
         {/* Main Section */}
         <div className="mb-6">
           {!collapsed && (
-            <span className="text-[10px] font-medium text-zinc-500 uppercase tracking-wider px-3 mb-2 block">
+            <span className="text-[10px] font-bold text-zinc-500 uppercase tracking-wider px-3 mb-2 block">
               Main
             </span>
           )}
@@ -152,7 +151,7 @@ export default function Sidebar({ analysisId, collapsed, onToggle }: SidebarProp
         {analysisNavItems.length > 0 && (
           <div className="mb-6">
             {!collapsed && (
-              <span className="text-[10px] font-medium text-zinc-500 uppercase tracking-wider px-3 mb-2 block">
+              <span className="text-[10px] font-bold text-zinc-500 uppercase tracking-wider px-3 mb-2 block">
                 Analysis
               </span>
             )}
@@ -212,65 +211,6 @@ export default function Sidebar({ analysisId, collapsed, onToggle }: SidebarProp
           </div>
         )}
 
-        {/* System Section */}
-        <div>
-          {!collapsed && (
-            <span className="text-[10px] font-medium text-zinc-500 uppercase tracking-wider px-3 mb-2 block">
-              System
-            </span>
-          )}
-          <ul className="space-y-1">
-            <li>
-              <Link
-                href="/settings"
-                className={cn(
-                  "flex items-center gap-3 px-3 py-2.5 text-sm transition-all duration-150",
-                  isActive("/settings")
-                    ? "bg-zinc-800 text-white"
-                    : "text-zinc-400"
-                )}
-                style={{
-                  borderRadius: "6px",
-                  backgroundColor: isActive("/settings") ? "#3b3486" : undefined,
-                  color: isActive("/settings") ? "#ffffff" : undefined,
-                }}
-                onMouseEnter={(e) => {
-                  if (!isActive("/settings")) {
-                    e.currentTarget.style.backgroundColor = "#3b3486"
-                    e.currentTarget.style.color = "#ffffff"
-                    e.currentTarget.querySelectorAll("span, svg").forEach(el => {
-                      (el as HTMLElement).style.color = "#ffffff"
-                    })
-                  }
-                }}
-                onMouseLeave={(e) => {
-                  if (!isActive("/settings")) {
-                    e.currentTarget.style.backgroundColor = ""
-                    e.currentTarget.style.color = ""
-                    e.currentTarget.querySelectorAll("span, svg").forEach(el => {
-                      (el as HTMLElement).style.color = ""
-                    })
-                  }
-                }}
-              >
-                <Settings className="w-5 h-5 flex-shrink-0" />
-                <AnimatePresence>
-                  {!collapsed && (
-                    <motion.span
-                      variants={itemVariants}
-                      initial="hidden"
-                      animate="visible"
-                      exit="hidden"
-                      className="whitespace-nowrap"
-                    >
-                      Settings
-                    </motion.span>
-                  )}
-                </AnimatePresence>
-              </Link>
-            </li>
-          </ul>
-        </div>
       </nav>
 
       {/* Footer */}

@@ -64,7 +64,7 @@ export default function UploadZone({ onUpload, uploading, progress = 0 }: Upload
     >
       <div className="flex items-center gap-2 mb-4">
         <Upload className="w-5 h-5 text-blue-400" />
-        <h2 className="text-lg font-semibold text-white">Upload Event Log</h2>
+        <h2 className="text-lg font-bold text-white">Upload Event Log</h2>
       </div>
       <p className="text-sm text-zinc-400 mb-6">
         Upload a CSV file containing Windows Event Log data for AI-powered analysis

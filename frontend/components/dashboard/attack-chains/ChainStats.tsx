@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react"
 import { motion } from "framer-motion"
 import anime from "animejs"
-import { GitBranch, Users, Layers, TrendingUp } from "lucide-react"
+import { GitBranch, Users, Layers, TrendingUp, PlaneTakeoff } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 interface ChainStatsProps {
@@ -9,6 +9,7 @@ interface ChainStatsProps {
   avgConfidence: number
   totalUsers: number
   totalPhases: number
+  totalTravels?: number
 }
 
 function AnimatedValue({ value, suffix = "" }: { value: number; suffix?: string }) {
@@ -33,23 +34,29 @@ function AnimatedValue({ value, suffix = "" }: { value: number; suffix?: string 
   )
 }
 
-const stats = [
+const baseStats = [
   { key: "chains", label: "Total Chains", icon: GitBranch, color: "text-purple-400", bg: "bg-purple-500/10" },
   { key: "confidence", label: "Avg Confidence", icon: TrendingUp, color: "text-blue-400", bg: "bg-blue-500/10" },
   { key: "users", label: "Users Affected", icon: Users, color: "text-orange-400", bg: "bg-orange-500/10" },
   { key: "phases", label: "Kill Phases", icon: Layers, color: "text-green-400", bg: "bg-green-500/10" },
 ]
 
-export default function ChainStats({ totalChains, avgConfidence, totalUsers, totalPhases }: ChainStatsProps) {
+export default function ChainStats({ totalChains, avgConfidence, totalUsers, totalPhases, totalTravels }: ChainStatsProps) {
   const values: Record<string, number> = {
     chains: totalChains,
     confidence: Math.round(avgConfidence * 100),
     users: totalUsers,
     phases: totalPhases,
+    travels: totalTravels || 0,
+  }
+
+  const stats = [...baseStats]
+  if (totalTravels !== undefined) {
+    stats.push({ key: "travels", label: "Travel Anomalies", icon: PlaneTakeoff, color: "text-red-400", bg: "bg-red-500/10" })
   }
 
   return (
-    <div className="grid grid-cols-4 gap-3">
+    <div className={cn("grid gap-3", stats.length === 5 ? "grid-cols-5" : "grid-cols-4")}>
       {stats.map((stat, index) => {
         const Icon = stat.icon
         return (
@@ -63,7 +70,7 @@ export default function ChainStats({ totalChains, avgConfidence, totalUsers, tot
           >
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-[10px] font-medium text-zinc-500 uppercase tracking-wider mb-1">
+                <p className="text-[10px] font-bold text-zinc-500 uppercase tracking-wider mb-1">
                   {stat.label}
                 </p>
                 <AnimatedValue

@@ -9,7 +9,17 @@ import ChainDetail from "@/components/dashboard/attack-chains/ChainDetail"
 import AnimatedGraphSection from "@/components/dashboard/attack-chains/AnimatedGraphSection"
 import EmptyState from "@/components/dashboard/EmptyState"
 import { ChainsPageSkeleton } from "@/components/dashboard/attack-chains/ChainSkeletons"
-import { getScanChains } from "@/lib/api"
+import { getScanChains, getScanTravels } from "@/lib/api"
+
+interface Travel {
+  travel_id: string
+  user_account: string
+  host_a: string
+  time_a: string
+  host_b: string
+  time_b: string
+  gap_minutes: number
+}
 
 interface Chain {
   id: string
@@ -27,6 +37,7 @@ export default function AttackChainsPage() {
   const router = useRouter()
   const { id } = router.query
   const [chains, setChains] = useState<Chain[]>([])
+  const [travels, setTravels] = useState<Travel[]>([])
   const [selectedChain, setSelectedChain] = useState<Chain | null>(null)
   const [loading, setLoading] = useState(true)
 
@@ -38,24 +49,36 @@ export default function AttackChainsPage() {
     if (!id) return
     setLoading(true)
     try {
-      const data = await getScanChains(id as string)
-      const chainData = (data.chains || []).map((ch: any, idx: number) => ({
-        id: ch.chain_id,
-        chain_id: ch.chain_id,
-        chain_index: idx + 1,
-        title: ch.chain_sequence,
-        computer: ch.computer,
-        chain_confidence: 0.9,
-        kill_chain_phases: [],
-        affected_users: [],
-        affected_hosts: [ch.computer]
-      }))
+      const [chainsRes, travelsRes] = await Promise.all([
+        getScanChains(id as string),
+        getScanTravels(id as string)
+      ])
+
+      const chainData = (chainsRes.chains || []).map((ch: any, idx: number) => {
+        // Parse the sequence string into individual steps for UI
+        const steps = ch.chain_sequence.split(" → ")
+        
+        return {
+          id: ch.chain_id,
+          chain_id: ch.chain_id,
+          chain_index: idx + 1,
+          title: ch.chain_sequence,
+          computer: ch.computer,
+          chain_confidence: 0.9,
+          kill_chain_phases: steps.map((s: string) => s.replace(/\[.*\]/, "").trim()),
+          affected_users: [],
+          affected_hosts: [ch.computer]
+        }
+      })
+      
       setChains(chainData)
+      setTravels(travelsRes.travels || [])
+
       if (chainData.length > 0) {
         setSelectedChain(chainData[0])
       }
     } catch (err) {
-      console.error("Failed to load chains:", err)
+      console.error("Failed to load chains/travels:", err)
     } finally {
       setLoading(false)
     }
@@ -113,6 +136,8 @@ export default function AttackChainsPage() {
               avgConfidence={avgConfidence}
               totalUsers={allUsers.size}
               totalPhases={allPhases.size}
+              // @ts-ignore - Adding extra prop for visual info
+              totalTravels={travels.length}
             />
 
             {/* Split View */}
@@ -143,8 +168,53 @@ export default function AttackChainsPage() {
             {/* Live Attack Graph */}
             <AnimatedGraphSection
               analysisId={id as string}
-              chainId={selectedChain?.id || null}
+              selectedChain={selectedChain || null}
             />
+
+            {/* Travel Anomalies Section */}
+            {travels.length > 0 && (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="bg-zinc-900 border border-zinc-800 p-5 mt-6"
+                style={{ borderRadius: "6px" }}
+              >
+                <div className="flex items-center gap-2 mb-4">
+                  <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
+                  <h3 className="text-sm font-bold text-white uppercase tracking-wider">Travel Alerts (Impossible Velocity)</h3>
+                </div>
+                <div className="space-y-3">
+                  {travels.map((travel) => (
+                    <div 
+                      key={travel.travel_id}
+                      className="flex items-center justify-between p-3 bg-zinc-950 border border-zinc-800/50 hover:border-zinc-700 transition-colors"
+                      style={{ borderRadius: "4px" }}
+                    >
+                      <div className="flex items-center gap-4">
+                        <div className="text-xs">
+                          <p className="text-zinc-500">User</p>
+                          <p className="text-zinc-200 font-medium">{travel.user_account}</p>
+                        </div>
+                        <div className="w-px h-6 bg-zinc-800" />
+                        <div className="text-xs">
+                          <p className="text-zinc-500">Host A ({new Date(travel.time_a).toLocaleTimeString()})</p>
+                          <p className="text-zinc-200">{travel.host_a}</p>
+                        </div>
+                        <div className="text-zinc-600 text-[10px] mx-1">➜</div>
+                        <div className="text-xs">
+                          <p className="text-zinc-500">Host B ({new Date(travel.time_b).toLocaleTimeString()})</p>
+                          <p className="text-zinc-200">{travel.host_b}</p>
+                        </div>
+                      </div>
+                      <div className="text-right">
+                        <p className="text-[10px] text-zinc-500 uppercase">Gap</p>
+                        <p className="text-xs text-red-400 font-bold">{travel.gap_minutes} mins</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </motion.div>
+            )}
           </>
         )}
       </div>

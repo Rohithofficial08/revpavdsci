@@ -94,7 +94,25 @@
   }
 
   .light .text-white {
-    color: #111827 !important;
+    /* Use the signature purple for primary titles in light mode */
+    color: #3B3486 !important;
+  }
+
+  /* Specific override for Dashboard Title to be even more prominent */
+  .light h1.text-white {
+    color: #3B3486 !important;
+  }
+  
+  /* Force white text ONLY for items INSIDE a purple background (Active Sidebar Items / Custom Buttons) */
+  .light aside [style*="background-color: rgb(59, 52, 134)"] span,
+  .light aside [style*="background-color: rgb(59, 52, 134)"] svg,
+  .light aside [style*="background-color: #3b3486"] span,
+  .light aside [style*="background-color: #3b3486"] svg,
+  .light [style*="background-color: #3B3486"],
+  .light [style*="background-color: #3b3486"],
+  .light button.bg-indigo-600,
+  .light .text-white-force {
+    color: #ffffff !important;
   }
 
   .light .text-zinc-200 {
@@ -102,19 +120,19 @@
   }
 
   .light .text-zinc-300 {
-    color: #374151 !important;
+    color: #4B5563 !important;
   }
 
   .light .text-zinc-400 {
-    color: #6B7280 !important;
+    color: #374151 !important;
   }
 
   .light .text-zinc-500 {
-    color: #9CA3AF !important;
+    color: #1F2937 !important;
   }
 
   .light .text-zinc-600 {
-    color: #D1D5DB !important;
+    color: #111827 !important;
   }
 
   .light .bg-zinc-700 {
@@ -244,17 +262,13 @@
 
   /* SUCCESS - Green */
   .light .bg-green-500\/10 {
-    background-color: rgba(34, 197, 94, 0.1) !important;
-  }
-  .light .border-green-500\/20,
-  .light .border-green-500\/30 {
-    border-color: rgba(34, 197, 94, 0.25) !important;
+    background-color: rgba(25, 42, 34, 0.08) !important;
   }
   .light .text-green-400 {
-    color: #22C55E !important;
+    color: #192A22 !important;
   }
   .light .bg-green-500 {
-    background-color: #22C55E !important;
+    background-color: #192A22 !important;
     color: #ffffff !important;
   }
 
@@ -279,6 +293,7 @@
 /* GLOBAL WHITE TEXT RULE   */
 /* ======================== */
 
+/* ONLY apply white text to SOLID color backgrounds, NOT to transparent /10 or /20 backgrounds */
 .bg-red-500, .bg-red-600,
 .bg-orange-500, .bg-orange-600,
 .bg-yellow-500, .bg-yellow-600,
@@ -290,19 +305,7 @@
 .bg-teal-500, .bg-teal-600,
 .bg-cyan-500, .bg-cyan-600,
 .bg-emerald-500, .bg-emerald-600,
-.bg-rose-500, .bg-rose-600,
-[class*="bg-red-500"], [class*="bg-red-600"],
-[class*="bg-orange-500"], [class*="bg-orange-600"],
-[class*="bg-yellow-500"], [class*="bg-yellow-600"],
-[class*="bg-green-500"], [class*="bg-green-600"],
-[class*="bg-blue-500"], [class*="bg-blue-600"],
-[class*="bg-purple-500"], [class*="bg-purple-600"],
-[class*="bg-indigo-500"], [class*="bg-indigo-600"],
-[class*="bg-pink-500"], [class*="bg-pink-600"],
-[class*="bg-teal-500"], [class*="bg-teal-600"],
-[class*="bg-cyan-500"], [class*="bg-cyan-600"],
-[class*="bg-emerald-500"], [class*="bg-emerald-600"],
-[class*="bg-rose-500"], [class*="bg-rose-600"] {
+.bg-rose-500, .bg-rose-600 {
   color: #ffffff !important;
 }
 
@@ -317,19 +320,7 @@
 .bg-teal-500 *, .bg-teal-600 *,
 .bg-cyan-500 *, .bg-cyan-600 *,
 .bg-emerald-500 *, .bg-emerald-600 *,
-.bg-rose-500 *, .bg-rose-600 *,
-[class*="bg-red-500"] *, [class*="bg-red-600"] *,
-[class*="bg-orange-500"] *, [class*="bg-orange-600"] *,
-[class*="bg-yellow-500"] *, [class*="bg-yellow-600"] *,
-[class*="bg-green-500"] *, [class*="bg-green-600"] *,
-[class*="bg-blue-500"] *, [class*="bg-blue-600"] *,
-[class*="bg-purple-500"] *, [class*="bg-purple-600"] *,
-[class*="bg-indigo-500"] *, [class*="bg-indigo-600"] *,
-[class*="bg-pink-500"] *, [class*="bg-pink-600"] *,
-[class*="bg-teal-500"] *, [class*="bg-teal-600"] *,
-[class*="bg-cyan-500"] *, [class*="bg-cyan-600"] *,
-[class*="bg-emerald-500"] *, [class*="bg-emerald-600"] *,
-[class*="bg-rose-500"] *, [class*="bg-rose-600"] * {
+.bg-rose-500 *, .bg-rose-600 * {
   color: #ffffff !important;
 }
 

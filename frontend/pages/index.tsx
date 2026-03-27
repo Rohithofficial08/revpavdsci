@@ -3,7 +3,7 @@ import { useRouter } from "next/router"
 import { motion } from "framer-motion"
 import DashboardLayout from "@/components/layout/DashboardLayout"
 import UploadZone from "@/components/dashboard/UploadZone"
-import { CheckCircle, XCircle, Loader2, Trash2, BarChart3, AlertTriangle } from "lucide-react"
+import { CheckCircle, XCircle, Loader2, Trash2, BarChart3, AlertTriangle, Download } from "lucide-react"
 import { uploadFile, listScans, connectWebSocket, apiFetch } from "@/lib/api"
 import { cn } from "@/lib/utils"
 
@@ -65,6 +65,22 @@ export default function HomePage() {
     }
   }
 
+  const downloadSample = () => {
+    const csvContent = 
+      "TimeGenerated,Source,EventID,Category,User,Computer,Description\n" +
+      "2026-03-27T10:00:00,Microsoft-Windows-Security-Auditing,4624,Logon,CORP\\jdoe,WORKSTATION-01,An account was successfully logged on.\n" +
+      "2026-03-27T10:05:00,Microsoft-Windows-Security-Auditing,4625,Logon,CORP\\jdoe,WORKSTATION-01,An account failed to log on.\n" +
+      "2026-03-27T10:10:00,Microsoft-Windows-Security-Auditing,4672,Special Logon,SYSTEM,WORKSTATION-01,Special privileges assigned to new logon."
+    
+    const blob = new Blob([csvContent], { type: "text/csv" })
+    const url = window.URL.createObjectURL(blob)
+    const a = document.createElement("a")
+    a.href = url
+    a.download = "sample_security_logs.csv"
+    a.click()
+    window.URL.revokeObjectURL(url)
+  }
+
   const getStatusConfig = (status: string) => {
     switch (status) {
       case "completed":
@@ -86,11 +102,25 @@ export default function HomePage() {
     <DashboardLayout>
       <div className="space-y-6">
         {/* Header */}
-        <div>
-          <h1 className="text-2xl font-bold text-white">Dashboard</h1>
-          <p className="text-sm text-zinc-400 mt-1">
-            Upload and analyze Windows Event Logs with AI-powered threat detection
-          </p>
+        <div className="flex items-center justify-between">
+          <div>
+            <h1 className="text-2xl font-bold text-white">Dashboard</h1>
+            <p className="text-sm text-zinc-400 mt-1">
+              Upload and analyze Windows Event Logs with AI-powered threat detection
+            </p>
+          </div>
+          <button
+            onClick={downloadSample}
+            className="flex items-center gap-2 px-6 py-2.5 font-bold transition-all hover:opacity-90 active:scale-95 shadow-lg"
+            style={{ 
+              backgroundColor: "#3B3486",
+              color: "#ffffff",
+              borderRadius: "6px"
+            }}
+          >
+            <Download className="w-4 h-4" />
+            Export Sample CSV
+          </button>
         </div>
 
         {/* Upload Zone */}
@@ -102,7 +132,7 @@ export default function HomePage() {
 
         {/* Previous Analyses */}
         <div>
-          <h2 className="text-sm font-semibold text-white mb-4">Previous Analyses</h2>
+          <h2 className="text-sm font-bold text-white mb-4">Previous Analyses</h2>
 
           {loading ? (
             <div className="flex items-center justify-center py-12 bg-zinc-900 border border-zinc-800" style={{ borderRadius: "6px" }}>
@@ -141,7 +171,11 @@ export default function HomePage() {
                     <div className="flex items-center gap-4">
                       {/* Status Icon */}
                       <div className={cn("w-10 h-10 flex items-center justify-center", statusConfig.bg)} style={{ borderRadius: "6px" }}>
-                        <StatusIcon className={cn("w-5 h-5", statusConfig.color, analysis.status !== "completed" && analysis.status !== "failed" && "animate-spin")} />
+                        <StatusIcon className={cn(
+                          "w-5 h-5", 
+                          statusConfig.color, 
+                          (analysis.status === "processing" || analysis.status === "analyzing") && "animate-spin"
+                        )} />
                       </div>
 
                       {/* Info */}

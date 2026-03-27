@@ -83,7 +83,7 @@ export default function StatCard({
     >
       <div className="flex items-start justify-between">
         <div className="space-y-2">
-          <p className="text-xs font-medium text-zinc-500 uppercase tracking-wider">
+          <p className="text-xs font-bold text-zinc-500 uppercase tracking-wider">
             {title}
           </p>
           <div className="flex items-baseline gap-1">
