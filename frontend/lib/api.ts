@@ -1,5 +1,5 @@
 // Updated to use LogSentinal SOC Microservice — Root Endpoints
-const API_URL = "/api/proxy"
+const API_URL = "https://dscibackend-v1.onrender.com"
 const DEFAULT_USER_ID = "356721c8-1559-4c00-9aec-8be06d861028"
 
 export async function apiFetch(path: string, options?: RequestInit) {
