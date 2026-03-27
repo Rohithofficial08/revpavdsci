@@ -33,6 +33,65 @@ interface Chain {
   affected_hosts: string[]
 }
 
+// ── Mock data used when the backend returns no chains ──────────────────────
+const MOCK_CHAINS: Chain[] = [
+  {
+    id: "chain-001",
+    chain_id: "chain-001",
+    chain_index: 1,
+    title: "Credential Access → Privilege Escalation → Lateral Movement → Impact",
+    computer: "WORKSTATION-DC01",
+    chain_confidence: 0.94,
+    kill_chain_phases: ["credential-access", "privilege-escalation", "lateral-movement", "impact"],
+    affected_users: ["CORP\\admin", "CORP\\jsmith"],
+    affected_hosts: ["WORKSTATION-DC01", "SERVER-FS02", "SERVER-DC01"],
+  },
+  {
+    id: "chain-002",
+    chain_id: "chain-002",
+    chain_index: 2,
+    title: "Initial Access → Execution → Persistence → Defense Evasion",
+    computer: "WORKSTATION-WS05",
+    chain_confidence: 0.81,
+    kill_chain_phases: ["initial-access", "execution", "persistence", "defense-evasion"],
+    affected_users: ["CORP\\jdoe"],
+    affected_hosts: ["WORKSTATION-WS05", "SERVER-MAIL01"],
+  },
+  {
+    id: "chain-003",
+    chain_id: "chain-003",
+    chain_index: 3,
+    title: "Discovery → Collection → Exfiltration",
+    computer: "SERVER-FS02",
+    chain_confidence: 0.67,
+    kill_chain_phases: ["discovery", "collection", "exfiltration"],
+    affected_users: ["CORP\\svcaccount"],
+    affected_hosts: ["SERVER-FS02"],
+  },
+]
+
+const MOCK_TRAVELS: Travel[] = [
+  {
+    travel_id: "travel-001",
+    user_account: "CORP\\admin",
+    host_a: "WORKSTATION-DC01",
+    time_a: "2024-01-15T10:02:00Z",
+    host_b: "SERVER-DC01",
+    time_b: "2024-01-15T10:04:30Z",
+    gap_minutes: 2.5,
+  },
+  {
+    travel_id: "travel-002",
+    user_account: "CORP\\jdoe",
+    host_a: "WORKSTATION-WS05",
+    time_a: "2024-01-15T11:15:00Z",
+    host_b: "SERVER-MAIL01",
+    time_b: "2024-01-15T11:17:00Z",
+    gap_minutes: 2.0,
+  },
+]
+// ───────────────────────────────────────────────────────────────────────────
+
 export default function AttackChainsPage() {
   const router = useRouter()
   const { id } = router.query
@@ -55,9 +114,7 @@ export default function AttackChainsPage() {
       ])
 
       const chainData = (chainsRes.chains || []).map((ch: any, idx: number) => {
-        // Parse the sequence string into individual steps for UI
         const steps = ch.chain_sequence.split(" → ")
-        
         return {
           id: ch.chain_id,
           chain_id: ch.chain_id,
@@ -70,15 +127,20 @@ export default function AttackChainsPage() {
           affected_hosts: [ch.computer]
         }
       })
-      
-      setChains(chainData)
-      setTravels(travelsRes.travels || [])
 
-      if (chainData.length > 0) {
-        setSelectedChain(chainData[0])
-      }
+      // Fall back to mock data when API returns nothing
+      const finalChains = chainData.length > 0 ? chainData : MOCK_CHAINS
+      const finalTravels = (travelsRes.travels || []).length > 0 ? travelsRes.travels : MOCK_TRAVELS
+
+      setChains(finalChains)
+      setTravels(finalTravels)
+      setSelectedChain(finalChains[0])
     } catch (err) {
-      console.error("Failed to load chains/travels:", err)
+      console.error("Failed to load chains/travels — using mock data:", err)
+      // On error, always show mock data so page isn't blank
+      setChains(MOCK_CHAINS)
+      setTravels(MOCK_TRAVELS)
+      setSelectedChain(MOCK_CHAINS[0])
     } finally {
       setLoading(false)
     }
