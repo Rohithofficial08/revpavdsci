@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, useCallback } from "react"
 import { useRouter } from "next/router"
 import { motion } from "framer-motion"
 import { AlertTriangle, Filter, X } from "lucide-react"
@@ -8,7 +8,17 @@ import FindingCard from "@/components/dashboard/findings/FindingCard"
 import Pagination from "@/components/dashboard/Pagination"
 import EmptyState from "@/components/dashboard/EmptyState"
 import { FindingsPageSkeleton } from "@/components/dashboard/Skeletons"
-import { getScanEvents, getScanCategories, getScan } from "@/lib/api"
+import { apiFetch } from "@/lib/api"
+
+interface Category {
+  category_id?: string
+  category_name: string
+  mitre_id?: string
+  tactic?: string
+  risk_score: number
+  event_count: number
+  ai_summary?: string
+}
 
 interface Finding {
   id: string
@@ -29,17 +39,34 @@ interface Finding {
   timestamp_end?: string
 }
 
-interface FindingStats {
-  total: number
-  by_severity: Record<string, number>
-  by_type: Record<string, number>
+// Map a category's risk_score (1-10) → severity label
+function riskToSeverity(score: number): string {
+  if (score >= 9) return "critical"
+  if (score >= 7) return "high"
+  if (score >= 4) return "medium"
+  if (score >= 2) return "low"
+  return "info"
+}
+
+// Map detection_type filter → category name keywords
+const TYPE_CATEGORY_MAP: Record<string, string[]> = {
+  ml_anomaly: ["anomaly", "ml", "isolation", "statistical"],
+  impossible_travel: ["travel", "impossible"],
+  rule: ["brute force", "privilege", "lateral", "ransomware", "log tamper", "persist", "network", "exec"],
 }
 
 export default function FindingsPage() {
   const router = useRouter()
   const { id } = router.query
+
+  // All categories from backend (used for stats + category→severity map)
+  const [categories, setCategories] = useState<Category[]>([])
+  // All events loaded (full list for client-side filter)
+  const [allFindings, setAllFindings] = useState<Finding[]>([])
+  // Filtered subset displayed
   const [findings, setFindings] = useState<Finding[]>([])
-  const [stats, setStats] = useState<FindingStats | null>(null)
+
+  const [bySeverity, setBySeverity] = useState<Record<string, number>>({})
   const [loading, setLoading] = useState(true)
   const [page, setPage] = useState(1)
   const [totalPages, setTotalPages] = useState(1)
@@ -47,85 +74,103 @@ export default function FindingsPage() {
   const [filterType, setFilterType] = useState("")
   const [totalFindings, setTotalFindings] = useState(0)
 
-  const limit = 20
+  const ITEMS_PER_PAGE = 20
 
-  useEffect(() => {
-    if (id) loadData()
-  }, [id, page, filterSeverity, filterType])
-
-  const loadData = async () => {
-    if (!id) return
-    setLoading(true)
-    try {
-      const scanId = id as string
-      const offset = (page - 1) * limit
-      
-      // Map frontend filter types to backend category names
-      let categoryFilter = ""
-      if (filterType === "ml_anomaly") categoryFilter = "Anomaly"
-      if (filterType === "impossible_travel") categoryFilter = "Travel"
-      if (filterType === "rule") categoryFilter = "Rule"
-
-      const [eventsData, categoriesData, scanData] = await Promise.all([
-        getScanEvents(scanId, { 
-          category: categoryFilter, 
-          limit, 
-          offset 
-        }),
-        getScanCategories(scanId),
-        getScan(scanId),
-      ])
-
-      // Map event fields to Finding interface
-      const mappedFindings: Finding[] = (eventsData.events || []).map((ev: any) => {
-        // Fix for 'Normal' title: give it a better title
-        const displayTitle = ev.category && ev.category !== "Normal" ? ev.category : "Threat Detected"
-        
-        return {
-          id: ev.event_id,
-          // Mapping severity based on risk context if available
-          severity: scanData.risk_score >= 7000 ? "high" : "medium",
-          title: displayTitle,
-          detection_type: "ml_anomaly",
-          affected_users: ev.user_account ? [ev.user_account] : [],
-          affected_hosts: ev.computer ? [ev.computer] : [],
-          timestamp_start: ev.time_logged,
-          details: ev
-        }
-      })
-
-      setFindings(mappedFindings)
-      // Use total_threats from scanData as fallback for the total count
-      const total = scanData.total_threats || eventsData.total || 0
-      setTotalFindings(total)
-      setTotalPages(Math.ceil(total / limit))
-
-      // Correctly sum event counts for each severity card
-      const bySeverity: Record<string, number> = {
-        critical: 0,
-        high: 0,
-        medium: 0,
-        low: 0,
-        info: 0
-      }
-
-      categoriesData.categories?.forEach((cat: any) => {
-        const severity = cat.risk_score >= 9 ? "critical" : cat.risk_score >= 7 ? "high" : cat.risk_score >= 4 ? "medium" : "low"
-        bySeverity[severity] += cat.event_count || 0
-      })
-      
-      setStats({
-        total: eventsData.total || 0,
-        by_severity: bySeverity,
-        by_type: {}
-      })
-
-    } catch (err) {
-      console.error("Failed to load findings:", err)
-    } finally {
-      setLoading(false)
-    }
+  // Build a map: category_name (lowercase) → severity
+  const buildCategoryMap = (cats: Category[]) => {
+    const map: Record<string, string> = {}
+    cats.forEach(cat => {
+      map[cat.category_name.toLowerCase()] = riskToSeverity(cat.risk_score)
+    })
+    return map
   }
+
+  // Load categories (for stats) + all events (for list)
+  useEffect(() => {
+    if (!id) return
+    const scanId = id as string
+    setLoading(true)
+
+    Promise.all([
+      apiFetch(`/scans/${scanId}/categories`),
+      apiFetch(`/scans/${scanId}/events?limit=5000&offset=0`),
+    ])
+      .then(([catData, evData]) => {
+        const cats: Category[] = catData.categories || []
+        setCategories(cats)
+
+        // Build severity totals from categories
+        const sevMap: Record<string, number> = { critical: 0, high: 0, medium: 0, low: 0, info: 0 }
+        cats.forEach(cat => {
+          const sev = riskToSeverity(cat.risk_score)
+          sevMap[sev] = (sevMap[sev] || 0) + (cat.event_count || 0)
+        })
+        setBySeverity(sevMap)
+
+        const catSeverityMap = buildCategoryMap(cats)
+        const catTacticMap: Record<string, string> = {}
+        const catMitreMap: Record<string, string> = {}
+        cats.forEach(cat => {
+          catTacticMap[cat.category_name.toLowerCase()] = cat.tactic || ""
+          catMitreMap[cat.category_name.toLowerCase()] = cat.mitre_id || ""
+        })
+
+        // Map events → Finding objects with real severity from their category
+        const mapped: Finding[] = (evData.events || []).map((ev: any) => {
+          const catKey = (ev.category || "").toLowerCase()
+          const severity = catSeverityMap[catKey] || "medium"
+          const mitre = catMitreMap[catKey]
+          const tactic = catTacticMap[catKey]
+
+          // Determine detection_type from category name
+          let detection_type = "rule"
+          const catLower = catKey
+          if (catLower.includes("anomaly") || catLower.includes("ml") || catLower.includes("isolation")) {
+            detection_type = "ml_anomaly"
+          } else if (catLower.includes("travel") || catLower.includes("impossible")) {
+            detection_type = "impossible_travel"
+          }
+
+          return {
+            id: ev.event_id || `${ev.time_logged}-${ev.computer}`,
+            severity,
+            title: ev.category || "Threat Detected",
+            description: `${ev.task_category || ""} on ${ev.computer || "unknown host"} by ${ev.user_account || "unknown user"}`,
+            detection_type,
+            mitre_techniques: mitre ? [mitre] : [],
+            mitre_tactics: tactic ? [tactic] : [],
+            affected_users: ev.user_account ? [ev.user_account] : [],
+            affected_hosts: ev.computer ? [ev.computer] : [],
+            timestamp_start: ev.time_logged,
+            details: ev,
+          }
+        })
+
+        setAllFindings(mapped)
+        setTotalFindings(mapped.length)
+      })
+      .catch(err => console.error("Failed to load findings:", err))
+      .finally(() => setLoading(false))
+  }, [id])
+
+  // Client-side filtering + pagination whenever filters or allFindings change
+  useEffect(() => {
+    let filtered = [...allFindings]
+
+    if (filterSeverity) {
+      filtered = filtered.filter(f => f.severity === filterSeverity)
+    }
+
+    if (filterType) {
+      filtered = filtered.filter(f => f.detection_type === filterType)
+    }
+
+    setTotalFindings(filtered.length)
+    setTotalPages(Math.max(1, Math.ceil(filtered.length / ITEMS_PER_PAGE)))
+
+    const start = (page - 1) * ITEMS_PER_PAGE
+    setFindings(filtered.slice(start, start + ITEMS_PER_PAGE))
+  }, [allFindings, filterSeverity, filterType, page])
 
   const handleFilterChange = (type: "severity" | "type", value: string) => {
     setPage(1)
@@ -141,7 +186,7 @@ export default function FindingsPage() {
 
   const hasFilters = filterSeverity || filterType
 
-  if (loading && !findings.length) {
+  if (loading) {
     return (
       <DashboardLayout analysisId={id as string}>
         <FindingsPageSkeleton />
@@ -167,6 +212,7 @@ export default function FindingsPage() {
               <h1 className="text-xl font-bold text-white">Findings</h1>
               <p className="text-xs text-zinc-500">
                 {totalFindings} detections identified
+                {hasFilters && <span className="ml-1 text-orange-400">(filtered)</span>}
               </p>
             </div>
           </div>
@@ -189,6 +235,7 @@ export default function FindingsPage() {
               <option value="high">High</option>
               <option value="medium">Medium</option>
               <option value="low">Low</option>
+              <option value="info">Info</option>
             </select>
 
             <select
@@ -216,24 +263,11 @@ export default function FindingsPage() {
           </div>
         </motion.div>
 
-        {/* Severity Stats */}
-        {stats && <SeverityStats stats={stats.by_severity} />}
+        {/* Severity Stats — always shows totals from categories, never changes with filter */}
+        <SeverityStats stats={bySeverity} />
 
         {/* Findings List */}
-        {loading ? (
-          <div className="space-y-3">
-            {[1, 2, 3, 4, 5].map((i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0.4 }}
-                animate={{ opacity: [0.4, 0.7, 0.4] }}
-                transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-                className="bg-zinc-900 border border-zinc-800 h-16"
-                style={{ borderRadius: "6px" }}
-              />
-            ))}
-          </div>
-        ) : findings.length === 0 ? (
+        {findings.length === 0 ? (
           <EmptyState type={hasFilters ? "no-results" : "no-findings"} />
         ) : (
           <div className="space-y-3">
