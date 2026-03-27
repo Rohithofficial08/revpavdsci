@@ -22,8 +22,7 @@
 | 11 | [API Client Reference](#-api-client-reference) |
 | 12 | [Proxy Bridge](#-proxy-bridge) |
 | 13 | [Theme System](#-theme-system) |
-| 14 | [Mock Data Strategy](#-mock-data-strategy) |
-| 15 | [Static Assets](#-static-assets) |
+| 14 | [Static Assets](#-static-assets) |
 
 ---
 
@@ -336,7 +335,7 @@ frontend/
 | **Findings Preview** | `GET /scans/{id}/events` | Top 10 events table |
 | **Attack Chains Preview** | `GET /scans/{id}/chains` | Condensed chain cards |
 
-> 🎭 **Mock Note:** If the file name is `DEMO_logs.csv`, the Threat Level score is overridden to `88 / 100 CRITICAL` for demonstration purposes only.
+
 
 ---
 
@@ -361,7 +360,7 @@ frontend/
 | **Chain detail** (right) | Full phase breakdown for selected chain |
 | **Live Attack Graph** | Animated SVG graph with glowing nodes + traveling packets |
 | **Travel Alerts** | Impossible velocity detections table |
-| **Mock fallback** | If backend returns 0 chains, 3 realistic demo chains are shown |
+
 
 ---
 
@@ -488,13 +487,6 @@ Browser → /api/proxy/scans/abc123/events?limit=50
 
 ---
 
-## 🎭 Mock Data Strategy
-
-| Component | Mock Trigger | Mock Data |
-|-----------|-------------|-----------|
-| **Threat Level** (Overview) | `file_name === "DEMO_logs.csv"` | Score forced to `88 / 100 CRITICAL` |
-| **Attack Chains** (Chains page) | Backend returns 0 chains | 3 realistic APT chains + 2 travel alerts |
-| **Live Attack Graph** | Built from `kill_chain_phases` array | Graph generated from real chain data; always has output |
 
 All other data is **100% real** from the backend.
 
