@@ -1,0 +1,1001 @@
+timestamp,event_id,level,source,computer,user,opcode,task_category,process_id,process_name,detail,cpu_usage,mem_usage,network_io,integrity_level,is_signed,label
+2026-03-27 21:14:41,4663,Critical,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Write,File System,6114,unknown.exe,Massive file system modification,88.0,2048,150.0,High,0,suspicious
+2026-03-27 21:14:42,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,8964,svchost.exe,Successful Logon,2.372143528047145,133,0.1,Medium,1,normal
+2026-03-27 21:14:43,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,223,powershell.exe,Successful Logon,0.7425790317188692,85,0.1,Medium,1,normal
+2026-03-27 21:14:44,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,612,svchost.exe,Successful Logon,3.635179732704944,44,0.1,Medium,1,normal
+2026-03-27 21:14:45,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,8568,powershell.exe,Successful Logon,1.7005687151384077,56,0.1,Medium,1,normal
+2026-03-27 21:14:46,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,2366,explorer.exe,Successful Logon,0.5717593509512946,104,0.1,Medium,1,normal
+2026-03-27 21:14:47,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,1898,services.exe,Successful Logon,3.79492209098459,62,0.1,Medium,1,normal
+2026-03-27 21:14:48,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,5518,lsass.exe,Successful Logon,1.4824860717421244,79,0.1,Medium,1,normal
+2026-03-27 21:14:49,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,4535,svchost.exe,Successful Logon,1.0365873603879843,44,0.1,Medium,1,normal
+2026-03-27 21:14:50,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,7737,services.exe,Successful Logon,3.2147893435050654,106,0.1,Medium,1,normal
+2026-03-27 21:14:51,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,4785,lsass.exe,Successful Logon,1.0392030893081046,77,0.1,Medium,1,normal
+2026-03-27 21:14:52,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,8940,svchost.exe,Successful Logon,1.3596030599221758,31,0.1,Medium,1,normal
+2026-03-27 21:14:53,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,2052,svchost.exe,Successful Logon,2.551188614399783,109,0.1,Medium,1,normal
+2026-03-27 21:14:54,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,2789,lsass.exe,Successful Logon,0.8439954746057974,60,0.1,Medium,1,normal
+2026-03-27 21:14:55,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,5940,svchost.exe,Successful Logon,3.0882390377590685,124,0.1,Medium,1,normal
+2026-03-27 21:14:56,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,3895,lsass.exe,Successful Logon,3.8054984104591947,148,0.1,Medium,1,normal
+2026-03-27 21:14:57,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,4739,svchost.exe,Successful Logon,1.4976324409057282,45,0.1,Medium,1,normal
+2026-03-27 21:14:58,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,3941,powershell.exe,Successful Logon,3.659003084489567,133,0.1,Medium,1,normal
+2026-03-27 21:14:59,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,4324,services.exe,Successful Logon,3.1785767850169595,79,0.1,Medium,1,normal
+2026-03-27 21:15:00,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,1776,svchost.exe,Successful Logon,1.4803517622210811,86,0.1,Medium,1,normal
+2026-03-27 21:15:01,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,1713,powershell.exe,Successful Logon,3.896458740370377,118,0.1,Medium,1,normal
+2026-03-27 21:15:02,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,272,svchost.exe,Successful Logon,0.7726647402364607,75,0.1,Medium,1,normal
+2026-03-27 21:15:03,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,1867,explorer.exe,Successful Logon,1.8314729386221527,50,0.1,Medium,1,normal
+2026-03-27 21:15:04,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,6708,svchost.exe,Successful Logon,3.7544219165648602,143,0.1,Medium,1,normal
+2026-03-27 21:15:05,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,1313,powershell.exe,Successful Logon,2.2717261837530134,140,0.1,Medium,1,normal
+2026-03-27 21:15:06,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,3525,powershell.exe,Successful Logon,1.489085389000078,92,0.1,Medium,1,normal
+2026-03-27 21:15:07,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,4178,services.exe,Successful Logon,0.6012321713828093,78,0.1,Medium,1,normal
+2026-03-27 21:15:08,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,4675,svchost.exe,Successful Logon,0.6472001980316664,116,0.1,Medium,1,normal
+2026-03-27 21:15:09,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,1842,powershell.exe,Successful Logon,2.844253810594235,31,0.1,Medium,1,normal
+2026-03-27 21:15:10,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,7943,lsass.exe,Successful Logon,2.198643187503232,147,0.1,Medium,1,normal
+2026-03-27 21:15:11,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,7581,explorer.exe,Successful Logon,3.7378346250447385,32,0.1,Medium,1,normal
+2026-03-27 21:15:12,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,7488,lsass.exe,Successful Logon,2.53420726428958,60,0.1,Medium,1,normal
+2026-03-27 21:15:13,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,8221,services.exe,Successful Logon,0.6182750959001102,74,0.1,Medium,1,normal
+2026-03-27 21:15:14,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,3246,svchost.exe,Successful Logon,1.169520601277979,33,0.1,Medium,1,normal
+2026-03-27 21:15:15,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,5067,explorer.exe,Successful Logon,1.822689969963627,140,0.1,Medium,1,normal
+2026-03-27 21:15:16,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,1969,svchost.exe,Successful Logon,2.118490371196374,87,0.1,Medium,1,normal
+2026-03-27 21:15:17,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,7938,powershell.exe,Successful Logon,0.5999671923655249,33,0.1,Medium,1,normal
+2026-03-27 21:15:18,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,8242,powershell.exe,Successful Logon,1.3277337702560421,95,0.1,Medium,1,normal
+2026-03-27 21:15:19,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,1649,lsass.exe,Successful Logon,2.4769216218179353,133,0.1,Medium,1,normal
+2026-03-27 21:15:20,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,8719,explorer.exe,Successful Logon,2.7103247004658177,55,0.1,Medium,1,normal
+2026-03-27 21:15:21,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,430,lsass.exe,Successful Logon,2.371663734376492,94,0.1,Medium,1,normal
+2026-03-27 21:15:22,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,7569,lsass.exe,Successful Logon,1.3158070569004088,119,0.1,Medium,1,normal
+2026-03-27 21:15:23,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,1741,services.exe,Successful Logon,2.8154342466021434,102,0.1,Medium,1,normal
+2026-03-27 21:15:24,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,8660,powershell.exe,Successful Logon,3.261636570049077,139,0.1,Medium,1,normal
+2026-03-27 21:15:25,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,3107,powershell.exe,Successful Logon,3.98148657250438,85,0.1,Medium,1,normal
+2026-03-27 21:15:26,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,7249,explorer.exe,Successful Logon,0.4256632303316521,40,0.1,Medium,1,normal
+2026-03-27 21:15:27,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,1815,svchost.exe,Successful Logon,0.5252865989640546,148,0.1,Medium,1,normal
+2026-03-27 21:15:28,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,6025,services.exe,Successful Logon,2.8636071814136823,119,0.1,Medium,1,normal
+2026-03-27 21:15:29,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,7904,svchost.exe,Successful Logon,0.3415079292183276,131,0.1,Medium,1,normal
+2026-03-27 21:15:30,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,7341,lsass.exe,Successful Logon,2.2688944786879195,52,0.1,Medium,1,normal
+2026-03-27 21:15:31,1102,Warning,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Info,Log Clear,8833,powershell.exe,The security log was cleared,5.0,150,0.5,System,1,suspicious
+2026-03-27 21:15:32,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,3446,lsass.exe,Successful Logon,2.573574684639408,126,0.1,Medium,1,normal
+2026-03-27 21:15:33,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,8664,svchost.exe,Successful Logon,1.1275990351760266,140,0.1,Medium,1,normal
+2026-03-27 21:15:34,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,5155,lsass.exe,Successful Logon,1.069752935982276,103,0.1,Medium,1,normal
+2026-03-27 21:15:35,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,8986,explorer.exe,Successful Logon,3.2328869546025873,82,0.1,Medium,1,normal
+2026-03-27 21:15:36,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,3326,powershell.exe,Successful Logon,1.9824686057566474,48,0.1,Medium,1,normal
+2026-03-27 21:15:37,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,7357,svchost.exe,Successful Logon,3.38789078635671,101,0.1,Medium,1,normal
+2026-03-27 21:15:38,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,1750,explorer.exe,Successful Logon,3.7410825641674808,59,0.1,Medium,1,normal
+2026-03-27 21:15:39,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,6719,powershell.exe,Successful Logon,2.8003858353501583,102,0.1,Medium,1,normal
+2026-03-27 21:15:40,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,8049,svchost.exe,Successful Logon,3.9278014100417766,147,0.1,Medium,1,normal
+2026-03-27 21:15:41,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,6866,services.exe,Successful Logon,0.9329777970685399,68,0.1,Medium,1,normal
+2026-03-27 21:15:42,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,1649,svchost.exe,Successful Logon,3.8666376432115976,39,0.1,Medium,1,normal
+2026-03-27 21:15:43,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,6071,powershell.exe,Successful Logon,0.8939553359521978,128,0.1,Medium,1,normal
+2026-03-27 21:15:44,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,3010,powershell.exe,Successful Logon,2.7977879538465227,76,0.1,Medium,1,normal
+2026-03-27 21:15:45,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3237,lsass.exe,Successful Logon,1.8144634741439043,41,0.1,Medium,1,normal
+2026-03-27 21:15:46,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,5306,explorer.exe,Successful Logon,2.9412159270905893,99,0.1,Medium,1,normal
+2026-03-27 21:15:47,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,8160,powershell.exe,Successful Logon,0.13637621456036852,140,0.1,Medium,1,normal
+2026-03-27 21:15:48,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,8442,powershell.exe,Successful Logon,3.368421750508385,150,0.1,Medium,1,normal
+2026-03-27 21:15:49,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,6822,powershell.exe,Successful Logon,1.8865237724003519,146,0.1,Medium,1,normal
+2026-03-27 21:15:50,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,382,powershell.exe,Successful Logon,3.1881944906597153,75,0.1,Medium,1,normal
+2026-03-27 21:15:51,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,4282,services.exe,Successful Logon,0.939705967345729,121,0.1,Medium,1,normal
+2026-03-27 21:15:52,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,1577,explorer.exe,Successful Logon,3.110179125847135,73,0.1,Medium,1,normal
+2026-03-27 21:15:53,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,7955,services.exe,Successful Logon,2.225242021119482,119,0.1,Medium,1,normal
+2026-03-27 21:15:54,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,5271,lsass.exe,Successful Logon,0.8127394975798891,70,0.1,Medium,1,normal
+2026-03-27 21:15:55,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,2857,powershell.exe,Successful Logon,2.059360139311579,45,0.1,Medium,1,normal
+2026-03-27 21:15:56,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,2628,lsass.exe,Successful Logon,0.2144712959707336,41,0.1,Medium,1,normal
+2026-03-27 21:15:57,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,7554,services.exe,Successful Logon,1.0923313268043737,104,0.1,Medium,1,normal
+2026-03-27 21:15:58,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,2488,lsass.exe,Successful Logon,1.608755574500469,121,0.1,Medium,1,normal
+2026-03-27 21:15:59,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,2955,svchost.exe,Successful Logon,0.8362654559039955,68,0.1,Medium,1,normal
+2026-03-27 21:16:00,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,1561,explorer.exe,Successful Logon,1.241055511566052,93,0.1,Medium,1,normal
+2026-03-27 21:16:01,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,1514,lsass.exe,Successful Logon,3.407476487487263,132,0.1,Medium,1,normal
+2026-03-27 21:16:02,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,2316,explorer.exe,Successful Logon,2.1883637899448076,124,0.1,Medium,1,normal
+2026-03-27 21:16:03,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,5030,services.exe,Successful Logon,3.904508470700849,92,0.1,Medium,1,normal
+2026-03-27 21:16:04,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,571,svchost.exe,Successful Logon,2.840654507365724,65,0.1,Medium,1,normal
+2026-03-27 21:16:05,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,1852,services.exe,Successful Logon,0.3842765377749565,52,0.1,Medium,1,normal
+2026-03-27 21:16:06,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,4288,powershell.exe,Successful Logon,1.4263579018084425,145,0.1,Medium,1,normal
+2026-03-27 21:16:07,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,7472,powershell.exe,Successful Logon,0.6046488821474123,51,0.1,Medium,1,normal
+2026-03-27 21:16:08,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,1795,lsass.exe,Successful Logon,0.5810131700654269,129,0.1,Medium,1,normal
+2026-03-27 21:16:09,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3159,explorer.exe,Successful Logon,3.1942157770583526,82,0.1,Medium,1,normal
+2026-03-27 21:16:10,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,1522,svchost.exe,Successful Logon,3.5772244447307515,121,0.1,Medium,1,normal
+2026-03-27 21:16:11,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,5527,services.exe,Successful Logon,0.7387324898680421,63,0.1,Medium,1,normal
+2026-03-27 21:16:12,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,1230,services.exe,Successful Logon,1.132535921984511,147,0.1,Medium,1,normal
+2026-03-27 21:16:13,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,3174,svchost.exe,Successful Logon,0.9881932567763543,136,0.1,Medium,1,normal
+2026-03-27 21:16:14,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,7585,svchost.exe,Successful Logon,3.3814460517485943,106,0.1,Medium,1,normal
+2026-03-27 21:16:15,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,8426,powershell.exe,Successful Logon,1.7845431833032046,142,0.1,Medium,1,normal
+2026-03-27 21:16:16,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,2194,services.exe,Successful Logon,0.45019904595245186,80,0.1,Medium,1,normal
+2026-03-27 21:16:17,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,216,lsass.exe,Successful Logon,0.5457223338182033,127,0.1,Medium,1,normal
+2026-03-27 21:16:18,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,127,explorer.exe,Successful Logon,3.0955091732751163,103,0.1,Medium,1,normal
+2026-03-27 21:16:19,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,8787,explorer.exe,Successful Logon,0.5011506278160448,116,0.1,Medium,1,normal
+2026-03-27 21:16:20,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,7394,services.exe,Successful Logon,3.0186583720072058,65,0.1,Medium,1,normal
+2026-03-27 21:16:21,10,Critical,Sysmon,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Read,Process Access,2099,mimikatz.exe,LSASS memory access detected,15.0,600,20.0,System,0,suspicious
+2026-03-27 21:16:22,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,7895,explorer.exe,Successful Logon,0.20863196288832175,148,0.1,Medium,1,normal
+2026-03-27 21:16:23,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,6925,explorer.exe,Successful Logon,2.9088818886698506,98,0.1,Medium,1,normal
+2026-03-27 21:16:24,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,776,services.exe,Successful Logon,0.8697804543180675,93,0.1,Medium,1,normal
+2026-03-27 21:16:25,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,1207,services.exe,Successful Logon,0.9102864601292094,30,0.1,Medium,1,normal
+2026-03-27 21:16:26,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,6320,services.exe,Successful Logon,2.488423241661791,117,0.1,Medium,1,normal
+2026-03-27 21:16:27,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,7029,explorer.exe,Successful Logon,1.7472319310370827,71,0.1,Medium,1,normal
+2026-03-27 21:16:28,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,4518,powershell.exe,Successful Logon,2.50219241451987,43,0.1,Medium,1,normal
+2026-03-27 21:16:29,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,6483,powershell.exe,Successful Logon,1.9287702851223107,115,0.1,Medium,1,normal
+2026-03-27 21:16:30,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,4417,svchost.exe,Successful Logon,0.8028709451563509,49,0.1,Medium,1,normal
+2026-03-27 21:16:31,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,5596,lsass.exe,Successful Logon,0.853321464681149,34,0.1,Medium,1,normal
+2026-03-27 21:16:32,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,2164,svchost.exe,Successful Logon,2.6734722821514385,87,0.1,Medium,1,normal
+2026-03-27 21:16:33,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,7838,powershell.exe,Successful Logon,3.3307138598999684,138,0.1,Medium,1,normal
+2026-03-27 21:16:34,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,7844,powershell.exe,Successful Logon,2.73884275452467,59,0.1,Medium,1,normal
+2026-03-27 21:16:35,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,8954,svchost.exe,Successful Logon,2.4572403332975004,148,0.1,Medium,1,normal
+2026-03-27 21:16:36,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,6133,services.exe,Successful Logon,0.9681507871021784,41,0.1,Medium,1,normal
+2026-03-27 21:16:37,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,3976,svchost.exe,Successful Logon,1.4405497440814201,57,0.1,Medium,1,normal
+2026-03-27 21:16:38,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,7909,svchost.exe,Successful Logon,1.7996682891354852,71,0.1,Medium,1,normal
+2026-03-27 21:16:39,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,3954,powershell.exe,Successful Logon,0.6663317589555001,59,0.1,Medium,1,normal
+2026-03-27 21:16:40,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,5670,svchost.exe,Successful Logon,0.9219702596307887,41,0.1,Medium,1,normal
+2026-03-27 21:16:41,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,3289,svchost.exe,Successful Logon,3.578398715465985,72,0.1,Medium,1,normal
+2026-03-27 21:16:42,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,1789,lsass.exe,Successful Logon,0.4622804791249603,79,0.1,Medium,1,normal
+2026-03-27 21:16:43,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,3702,lsass.exe,Successful Logon,0.280124733506803,119,0.1,Medium,1,normal
+2026-03-27 21:16:44,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,8864,svchost.exe,Successful Logon,1.1093740571665354,35,0.1,Medium,1,normal
+2026-03-27 21:16:45,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,8684,explorer.exe,Successful Logon,0.7523204680430312,33,0.1,Medium,1,normal
+2026-03-27 21:16:46,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,8505,lsass.exe,Successful Logon,3.7001822905076462,36,0.1,Medium,1,normal
+2026-03-27 21:16:47,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,8264,lsass.exe,Successful Logon,2.3246444761253926,109,0.1,Medium,1,normal
+2026-03-27 21:16:48,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,5385,svchost.exe,Successful Logon,1.0193746640797927,33,0.1,Medium,1,normal
+2026-03-27 21:16:49,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,1622,svchost.exe,Successful Logon,3.3017930400273126,52,0.1,Medium,1,normal
+2026-03-27 21:16:50,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,3225,explorer.exe,Successful Logon,1.2561629852235208,147,0.1,Medium,1,normal
+2026-03-27 21:16:51,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,7107,explorer.exe,Successful Logon,1.6949115394657368,129,0.1,Medium,1,normal
+2026-03-27 21:16:52,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,4527,explorer.exe,Successful Logon,0.31026603039671674,45,0.1,Medium,1,normal
+2026-03-27 21:16:53,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,7139,lsass.exe,Successful Logon,2.746649607518177,72,0.1,Medium,1,normal
+2026-03-27 21:16:54,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,5474,lsass.exe,Successful Logon,0.7342107638228081,126,0.1,Medium,1,normal
+2026-03-27 21:16:55,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,3154,explorer.exe,Successful Logon,3.987460298152286,131,0.1,Medium,1,normal
+2026-03-27 21:16:56,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,2609,lsass.exe,Successful Logon,1.3352715988789905,141,0.1,Medium,1,normal
+2026-03-27 21:16:57,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,1196,services.exe,Successful Logon,0.7671249545553506,127,0.1,Medium,1,normal
+2026-03-27 21:16:58,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,7158,services.exe,Successful Logon,2.8053238028810195,131,0.1,Medium,1,normal
+2026-03-27 21:16:59,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,2608,explorer.exe,Successful Logon,3.8995806116785166,31,0.1,Medium,1,normal
+2026-03-27 21:17:00,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,5271,lsass.exe,Successful Logon,3.198094055770234,48,0.1,Medium,1,normal
+2026-03-27 21:17:01,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,3948,powershell.exe,Successful Logon,1.5421616751064486,150,0.1,Medium,1,normal
+2026-03-27 21:17:02,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,1503,explorer.exe,Successful Logon,0.8120210354466029,48,0.1,Medium,1,normal
+2026-03-27 21:17:03,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,2650,svchost.exe,Successful Logon,1.2602610771368183,122,0.1,Medium,1,normal
+2026-03-27 21:17:04,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,5632,powershell.exe,Successful Logon,0.2065907277829157,132,0.1,Medium,1,normal
+2026-03-27 21:17:05,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,3071,powershell.exe,Successful Logon,2.8668898089055164,99,0.1,Medium,1,normal
+2026-03-27 21:17:06,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,3428,lsass.exe,Successful Logon,2.270748423315171,124,0.1,Medium,1,normal
+2026-03-27 21:17:07,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,3267,explorer.exe,Successful Logon,3.48336112547616,51,0.1,Medium,1,normal
+2026-03-27 21:17:08,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,5411,lsass.exe,Successful Logon,3.632582621820303,135,0.1,Medium,1,normal
+2026-03-27 21:17:09,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,4243,svchost.exe,Successful Logon,0.965671906688455,118,0.1,Medium,1,normal
+2026-03-27 21:17:10,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,5293,powershell.exe,Successful Logon,0.8166544396559748,116,0.1,Medium,1,normal
+2026-03-27 21:17:11,7045,Warning,Service Control,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Install,Service,775,services.exe,New service PSEXESVC installed,2.0,50,10.0,System,1,suspicious
+2026-03-27 21:17:12,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,3470,lsass.exe,Successful Logon,0.5741097693612016,30,0.1,Medium,1,normal
+2026-03-27 21:17:13,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,3551,svchost.exe,Successful Logon,1.3878814071733565,131,0.1,Medium,1,normal
+2026-03-27 21:17:14,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,1432,lsass.exe,Successful Logon,0.7433605818522148,39,0.1,Medium,1,normal
+2026-03-27 21:17:15,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,2094,services.exe,Successful Logon,3.59414388392829,53,0.1,Medium,1,normal
+2026-03-27 21:17:16,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,2143,explorer.exe,Successful Logon,2.0089009595302247,51,0.1,Medium,1,normal
+2026-03-27 21:17:17,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,7404,powershell.exe,Successful Logon,3.078889269222982,115,0.1,Medium,1,normal
+2026-03-27 21:17:18,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,132,powershell.exe,Successful Logon,3.151651916752882,135,0.1,Medium,1,normal
+2026-03-27 21:17:19,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,3836,lsass.exe,Successful Logon,2.0260341331620886,145,0.1,Medium,1,normal
+2026-03-27 21:17:20,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,475,services.exe,Successful Logon,3.3680015536448247,119,0.1,Medium,1,normal
+2026-03-27 21:17:21,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,8958,lsass.exe,Successful Logon,0.5943374482178468,36,0.1,Medium,1,normal
+2026-03-27 21:17:22,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,7139,svchost.exe,Successful Logon,3.313887469454075,84,0.1,Medium,1,normal
+2026-03-27 21:17:23,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,4309,svchost.exe,Successful Logon,1.244092605356213,92,0.1,Medium,1,normal
+2026-03-27 21:17:24,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,4825,explorer.exe,Successful Logon,3.4970144283131503,114,0.1,Medium,1,normal
+2026-03-27 21:17:25,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,1332,lsass.exe,Successful Logon,0.583767810367413,102,0.1,Medium,1,normal
+2026-03-27 21:17:26,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,8445,explorer.exe,Successful Logon,0.6775546132534647,98,0.1,Medium,1,normal
+2026-03-27 21:17:27,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,3277,services.exe,Successful Logon,0.7490091219756774,147,0.1,Medium,1,normal
+2026-03-27 21:17:28,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,6812,lsass.exe,Successful Logon,1.706828023014268,125,0.1,Medium,1,normal
+2026-03-27 21:17:29,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,3718,powershell.exe,Successful Logon,0.729775178265082,143,0.1,Medium,1,normal
+2026-03-27 21:17:30,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,2639,explorer.exe,Successful Logon,0.7448131510827656,93,0.1,Medium,1,normal
+2026-03-27 21:17:31,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,8471,services.exe,Successful Logon,2.87775903676019,78,0.1,Medium,1,normal
+2026-03-27 21:17:32,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,6402,lsass.exe,Successful Logon,1.9024993694918948,99,0.1,Medium,1,normal
+2026-03-27 21:17:33,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,278,powershell.exe,Successful Logon,0.8932648158444648,125,0.1,Medium,1,normal
+2026-03-27 21:17:34,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,753,services.exe,Successful Logon,1.7777253560907362,59,0.1,Medium,1,normal
+2026-03-27 21:17:35,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,5948,svchost.exe,Successful Logon,1.7164489900303315,133,0.1,Medium,1,normal
+2026-03-27 21:17:36,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,1419,lsass.exe,Successful Logon,2.9916820791395913,80,0.1,Medium,1,normal
+2026-03-27 21:17:37,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,1038,services.exe,Successful Logon,0.3970493701357851,143,0.1,Medium,1,normal
+2026-03-27 21:17:38,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,5180,svchost.exe,Successful Logon,1.656702813395508,45,0.1,Medium,1,normal
+2026-03-27 21:17:39,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,1664,svchost.exe,Successful Logon,1.8636363134597658,126,0.1,Medium,1,normal
+2026-03-27 21:17:40,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,7006,services.exe,Successful Logon,2.042631834817027,108,0.1,Medium,1,normal
+2026-03-27 21:17:41,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,3280,powershell.exe,Successful Logon,1.7125506939945971,100,0.1,Medium,1,normal
+2026-03-27 21:17:42,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,4599,powershell.exe,Successful Logon,2.62897749243245,139,0.1,Medium,1,normal
+2026-03-27 21:17:43,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,1678,svchost.exe,Successful Logon,2.9934914160581587,102,0.1,Medium,1,normal
+2026-03-27 21:17:44,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,912,powershell.exe,Successful Logon,1.8294121938228283,71,0.1,Medium,1,normal
+2026-03-27 21:17:45,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,802,services.exe,Successful Logon,1.8065715572839045,81,0.1,Medium,1,normal
+2026-03-27 21:17:46,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,3312,explorer.exe,Successful Logon,1.7959187877089315,98,0.1,Medium,1,normal
+2026-03-27 21:17:47,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,4661,powershell.exe,Successful Logon,1.4491433864149879,30,0.1,Medium,1,normal
+2026-03-27 21:17:48,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,530,services.exe,Successful Logon,1.5609788352014038,62,0.1,Medium,1,normal
+2026-03-27 21:17:49,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,1092,powershell.exe,Successful Logon,2.4130898544448565,132,0.1,Medium,1,normal
+2026-03-27 21:17:50,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,815,services.exe,Successful Logon,0.1572675304705751,31,0.1,Medium,1,normal
+2026-03-27 21:17:51,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,3297,explorer.exe,Successful Logon,3.284960583744851,138,0.1,Medium,1,normal
+2026-03-27 21:17:52,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,2625,powershell.exe,Successful Logon,2.240649615037769,129,0.1,Medium,1,normal
+2026-03-27 21:17:53,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,7522,svchost.exe,Successful Logon,2.7842707589688334,78,0.1,Medium,1,normal
+2026-03-27 21:17:54,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,8165,explorer.exe,Successful Logon,1.149762579524069,96,0.1,Medium,1,normal
+2026-03-27 21:17:55,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,1884,lsass.exe,Successful Logon,1.7400125830964368,60,0.1,Medium,1,normal
+2026-03-27 21:17:56,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,109,svchost.exe,Successful Logon,2.262032209806658,138,0.1,Medium,1,normal
+2026-03-27 21:17:57,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,3544,lsass.exe,Successful Logon,1.5438383054936204,129,0.1,Medium,1,normal
+2026-03-27 21:17:58,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,581,services.exe,Successful Logon,3.139043553216471,132,0.1,Medium,1,normal
+2026-03-27 21:17:59,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,2651,lsass.exe,Successful Logon,1.0331582544146898,61,0.1,Medium,1,normal
+2026-03-27 21:18:00,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,2316,services.exe,Successful Logon,0.1858931104828493,70,0.1,Medium,1,normal
+2026-03-27 21:18:01,4663,Critical,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Write,File System,6363,unknown.exe,Massive file system modification,88.0,2048,150.0,High,0,suspicious
+2026-03-27 21:18:02,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,1689,services.exe,Successful Logon,0.5276234266188533,63,0.1,Medium,1,normal
+2026-03-27 21:18:03,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,3349,powershell.exe,Successful Logon,3.990924896792734,44,0.1,Medium,1,normal
+2026-03-27 21:18:04,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,8447,lsass.exe,Successful Logon,3.3655017491281187,88,0.1,Medium,1,normal
+2026-03-27 21:18:05,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,7965,svchost.exe,Successful Logon,3.6853172528068576,61,0.1,Medium,1,normal
+2026-03-27 21:18:06,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,6167,explorer.exe,Successful Logon,3.4790459757463412,82,0.1,Medium,1,normal
+2026-03-27 21:18:07,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,4033,svchost.exe,Successful Logon,3.436980643188867,55,0.1,Medium,1,normal
+2026-03-27 21:18:08,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,594,explorer.exe,Successful Logon,1.963329979215171,110,0.1,Medium,1,normal
+2026-03-27 21:18:09,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,8699,explorer.exe,Successful Logon,1.2411482522367288,140,0.1,Medium,1,normal
+2026-03-27 21:18:10,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,1386,lsass.exe,Successful Logon,2.211565956228732,149,0.1,Medium,1,normal
+2026-03-27 21:18:11,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,3232,powershell.exe,Successful Logon,0.6740807470402708,118,0.1,Medium,1,normal
+2026-03-27 21:18:12,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,738,powershell.exe,Successful Logon,1.8922586678845843,129,0.1,Medium,1,normal
+2026-03-27 21:18:13,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,4696,svchost.exe,Successful Logon,3.1351118006992844,32,0.1,Medium,1,normal
+2026-03-27 21:18:14,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,8312,explorer.exe,Successful Logon,2.0771208574602666,127,0.1,Medium,1,normal
+2026-03-27 21:18:15,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,7662,services.exe,Successful Logon,1.324244640260109,52,0.1,Medium,1,normal
+2026-03-27 21:18:16,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,3906,powershell.exe,Successful Logon,3.1878809606086924,135,0.1,Medium,1,normal
+2026-03-27 21:18:17,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,4970,explorer.exe,Successful Logon,1.3297985966195043,88,0.1,Medium,1,normal
+2026-03-27 21:18:18,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,4803,svchost.exe,Successful Logon,0.32141651401063115,150,0.1,Medium,1,normal
+2026-03-27 21:18:19,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,3883,svchost.exe,Successful Logon,2.2348203470655674,44,0.1,Medium,1,normal
+2026-03-27 21:18:20,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,4184,lsass.exe,Successful Logon,0.12393812670362671,65,0.1,Medium,1,normal
+2026-03-27 21:18:21,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,7558,svchost.exe,Successful Logon,3.166101950698073,130,0.1,Medium,1,normal
+2026-03-27 21:18:22,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,6441,powershell.exe,Successful Logon,1.8198842678140676,49,0.1,Medium,1,normal
+2026-03-27 21:18:23,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,1870,powershell.exe,Successful Logon,2.7038379243902444,87,0.1,Medium,1,normal
+2026-03-27 21:18:24,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,1616,services.exe,Successful Logon,3.759298767999394,49,0.1,Medium,1,normal
+2026-03-27 21:18:25,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,6093,powershell.exe,Successful Logon,2.3616885267953345,120,0.1,Medium,1,normal
+2026-03-27 21:18:26,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,5172,svchost.exe,Successful Logon,1.02825024368859,121,0.1,Medium,1,normal
+2026-03-27 21:18:27,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,5519,lsass.exe,Successful Logon,0.5721520094976535,120,0.1,Medium,1,normal
+2026-03-27 21:18:28,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,655,powershell.exe,Successful Logon,1.3230162406781887,61,0.1,Medium,1,normal
+2026-03-27 21:18:29,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,7596,lsass.exe,Successful Logon,0.5659348907475618,44,0.1,Medium,1,normal
+2026-03-27 21:18:30,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,7672,powershell.exe,Successful Logon,1.1829752760310748,92,0.1,Medium,1,normal
+2026-03-27 21:18:31,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,6747,svchost.exe,Successful Logon,0.8307969115245859,48,0.1,Medium,1,normal
+2026-03-27 21:18:32,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,2531,services.exe,Successful Logon,1.0506148980955694,47,0.1,Medium,1,normal
+2026-03-27 21:18:33,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,1838,explorer.exe,Successful Logon,2.45412998552073,101,0.1,Medium,1,normal
+2026-03-27 21:18:34,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,1933,svchost.exe,Successful Logon,1.1938227478404182,53,0.1,Medium,1,normal
+2026-03-27 21:18:35,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,687,lsass.exe,Successful Logon,3.8996518821499855,96,0.1,Medium,1,normal
+2026-03-27 21:18:36,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,5845,services.exe,Successful Logon,0.8623887874130596,76,0.1,Medium,1,normal
+2026-03-27 21:18:37,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,5846,lsass.exe,Successful Logon,1.782572587121408,137,0.1,Medium,1,normal
+2026-03-27 21:18:38,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,3716,svchost.exe,Successful Logon,0.9638724560664877,135,0.1,Medium,1,normal
+2026-03-27 21:18:39,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,3223,services.exe,Successful Logon,2.9771950750900102,88,0.1,Medium,1,normal
+2026-03-27 21:18:40,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,4931,explorer.exe,Successful Logon,0.2774497149557946,34,0.1,Medium,1,normal
+2026-03-27 21:18:41,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3299,explorer.exe,Successful Logon,1.5327889226964386,126,0.1,Medium,1,normal
+2026-03-27 21:18:42,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,2772,services.exe,Successful Logon,2.1021046554746596,140,0.1,Medium,1,normal
+2026-03-27 21:18:43,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,6604,lsass.exe,Successful Logon,1.2900215907432457,45,0.1,Medium,1,normal
+2026-03-27 21:18:44,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,3547,lsass.exe,Successful Logon,0.6891552487881983,60,0.1,Medium,1,normal
+2026-03-27 21:18:45,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,4094,lsass.exe,Successful Logon,3.6388107731089088,123,0.1,Medium,1,normal
+2026-03-27 21:18:46,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,5525,svchost.exe,Successful Logon,2.3181316906965392,35,0.1,Medium,1,normal
+2026-03-27 21:18:47,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,7238,svchost.exe,Successful Logon,3.5825540098148636,138,0.1,Medium,1,normal
+2026-03-27 21:18:48,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,918,powershell.exe,Successful Logon,0.2559603412367083,61,0.1,Medium,1,normal
+2026-03-27 21:18:49,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,6174,explorer.exe,Successful Logon,3.4547826454435064,107,0.1,Medium,1,normal
+2026-03-27 21:18:50,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,8087,lsass.exe,Successful Logon,1.2647651041816286,105,0.1,Medium,1,normal
+2026-03-27 21:18:51,1102,Warning,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Info,Log Clear,6051,powershell.exe,The security log was cleared,5.0,150,0.5,System,1,suspicious
+2026-03-27 21:18:52,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,6653,services.exe,Successful Logon,1.7739899859889832,44,0.1,Medium,1,normal
+2026-03-27 21:18:53,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,5836,lsass.exe,Successful Logon,3.6637600624455535,109,0.1,Medium,1,normal
+2026-03-27 21:18:54,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,4323,lsass.exe,Successful Logon,2.4036886799146653,148,0.1,Medium,1,normal
+2026-03-27 21:18:55,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,8956,explorer.exe,Successful Logon,3.1160813252394775,97,0.1,Medium,1,normal
+2026-03-27 21:18:56,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,1520,explorer.exe,Successful Logon,0.3410174650571492,42,0.1,Medium,1,normal
+2026-03-27 21:18:57,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,7323,powershell.exe,Successful Logon,3.9962219265085412,38,0.1,Medium,1,normal
+2026-03-27 21:18:58,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3664,svchost.exe,Successful Logon,3.158292484121339,68,0.1,Medium,1,normal
+2026-03-27 21:18:59,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,2126,services.exe,Successful Logon,3.2822920355139775,116,0.1,Medium,1,normal
+2026-03-27 21:19:00,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,5597,explorer.exe,Successful Logon,0.5436633746993286,104,0.1,Medium,1,normal
+2026-03-27 21:19:01,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3157,lsass.exe,Successful Logon,2.586857397115155,78,0.1,Medium,1,normal
+2026-03-27 21:19:02,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,5286,svchost.exe,Successful Logon,2.3158105188147324,85,0.1,Medium,1,normal
+2026-03-27 21:19:03,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,7829,svchost.exe,Successful Logon,1.8188974887753049,43,0.1,Medium,1,normal
+2026-03-27 21:19:04,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,8815,services.exe,Successful Logon,2.059933169146054,106,0.1,Medium,1,normal
+2026-03-27 21:19:05,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,1842,powershell.exe,Successful Logon,2.1388742282098043,55,0.1,Medium,1,normal
+2026-03-27 21:19:06,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,397,explorer.exe,Successful Logon,0.9748323078195953,111,0.1,Medium,1,normal
+2026-03-27 21:19:07,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,1628,powershell.exe,Successful Logon,3.5052939971249675,143,0.1,Medium,1,normal
+2026-03-27 21:19:08,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,3452,lsass.exe,Successful Logon,3.0739439991526236,37,0.1,Medium,1,normal
+2026-03-27 21:19:09,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,6454,svchost.exe,Successful Logon,3.475111028662563,45,0.1,Medium,1,normal
+2026-03-27 21:19:10,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,1780,lsass.exe,Successful Logon,1.7444645175053235,101,0.1,Medium,1,normal
+2026-03-27 21:19:11,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,1370,lsass.exe,Successful Logon,2.334937492701465,85,0.1,Medium,1,normal
+2026-03-27 21:19:12,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,899,explorer.exe,Successful Logon,0.3687748732499764,101,0.1,Medium,1,normal
+2026-03-27 21:19:13,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,367,svchost.exe,Successful Logon,2.974447788024612,128,0.1,Medium,1,normal
+2026-03-27 21:19:14,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,345,explorer.exe,Successful Logon,3.933708921055152,56,0.1,Medium,1,normal
+2026-03-27 21:19:15,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,6359,svchost.exe,Successful Logon,2.074652089677007,104,0.1,Medium,1,normal
+2026-03-27 21:19:16,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,3932,explorer.exe,Successful Logon,1.364005010569872,56,0.1,Medium,1,normal
+2026-03-27 21:19:17,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,6902,explorer.exe,Successful Logon,0.42784477752343086,102,0.1,Medium,1,normal
+2026-03-27 21:19:18,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,2480,powershell.exe,Successful Logon,2.9064189236031126,121,0.1,Medium,1,normal
+2026-03-27 21:19:19,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3034,lsass.exe,Successful Logon,3.2698930567644213,122,0.1,Medium,1,normal
+2026-03-27 21:19:20,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,7050,services.exe,Successful Logon,0.5482122244270814,82,0.1,Medium,1,normal
+2026-03-27 21:19:21,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,1539,powershell.exe,Successful Logon,2.905951683140437,149,0.1,Medium,1,normal
+2026-03-27 21:19:22,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,2837,lsass.exe,Successful Logon,3.5805163224960848,139,0.1,Medium,1,normal
+2026-03-27 21:19:23,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,2648,services.exe,Successful Logon,1.8732760304342262,126,0.1,Medium,1,normal
+2026-03-27 21:19:24,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,7332,powershell.exe,Successful Logon,2.618224869056063,34,0.1,Medium,1,normal
+2026-03-27 21:19:25,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,128,svchost.exe,Successful Logon,2.6617519992407264,78,0.1,Medium,1,normal
+2026-03-27 21:19:26,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3856,explorer.exe,Successful Logon,3.825513747710886,52,0.1,Medium,1,normal
+2026-03-27 21:19:27,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,1315,explorer.exe,Successful Logon,0.4982407072689897,44,0.1,Medium,1,normal
+2026-03-27 21:19:28,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,2725,explorer.exe,Successful Logon,0.7195961270741736,101,0.1,Medium,1,normal
+2026-03-27 21:19:29,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,551,svchost.exe,Successful Logon,0.3806204937415203,124,0.1,Medium,1,normal
+2026-03-27 21:19:30,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,8084,lsass.exe,Successful Logon,1.9192527294180601,30,0.1,Medium,1,normal
+2026-03-27 21:19:31,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,6205,explorer.exe,Successful Logon,0.7392765173467832,122,0.1,Medium,1,normal
+2026-03-27 21:19:32,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,8578,powershell.exe,Successful Logon,3.843362965246269,83,0.1,Medium,1,normal
+2026-03-27 21:19:33,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,6957,services.exe,Successful Logon,1.8411595689649296,144,0.1,Medium,1,normal
+2026-03-27 21:19:34,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,6631,services.exe,Successful Logon,1.0970889785297355,131,0.1,Medium,1,normal
+2026-03-27 21:19:35,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,972,explorer.exe,Successful Logon,0.7563053742780282,145,0.1,Medium,1,normal
+2026-03-27 21:19:36,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,4558,lsass.exe,Successful Logon,0.9521146297951776,78,0.1,Medium,1,normal
+2026-03-27 21:19:37,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,4567,lsass.exe,Successful Logon,1.5842099370910938,109,0.1,Medium,1,normal
+2026-03-27 21:19:38,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,658,services.exe,Successful Logon,2.1525766376448257,86,0.1,Medium,1,normal
+2026-03-27 21:19:39,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,2185,lsass.exe,Successful Logon,0.6849958855759394,41,0.1,Medium,1,normal
+2026-03-27 21:19:40,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,4267,services.exe,Successful Logon,1.5470299533210636,53,0.1,Medium,1,normal
+2026-03-27 21:19:41,10,Critical,Sysmon,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Read,Process Access,4997,mimikatz.exe,LSASS memory access detected,15.0,600,20.0,System,0,suspicious
+2026-03-27 21:19:42,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,7485,svchost.exe,Successful Logon,0.6376756341790211,38,0.1,Medium,1,normal
+2026-03-27 21:19:43,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,8752,services.exe,Successful Logon,1.7191980180390485,128,0.1,Medium,1,normal
+2026-03-27 21:19:44,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,3226,explorer.exe,Successful Logon,3.285371595474597,79,0.1,Medium,1,normal
+2026-03-27 21:19:45,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,6209,explorer.exe,Successful Logon,3.9710750648261097,52,0.1,Medium,1,normal
+2026-03-27 21:19:46,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,1949,svchost.exe,Successful Logon,3.763557566044766,74,0.1,Medium,1,normal
+2026-03-27 21:19:47,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,5756,services.exe,Successful Logon,2.818383312220742,147,0.1,Medium,1,normal
+2026-03-27 21:19:48,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,2989,services.exe,Successful Logon,3.9851275193225617,123,0.1,Medium,1,normal
+2026-03-27 21:19:49,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,3862,explorer.exe,Successful Logon,3.851328472046684,89,0.1,Medium,1,normal
+2026-03-27 21:19:50,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,7576,powershell.exe,Successful Logon,0.8143469643823553,43,0.1,Medium,1,normal
+2026-03-27 21:19:51,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3664,explorer.exe,Successful Logon,2.017776280678322,90,0.1,Medium,1,normal
+2026-03-27 21:19:52,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,5096,services.exe,Successful Logon,1.0775754125474264,94,0.1,Medium,1,normal
+2026-03-27 21:19:53,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,3350,lsass.exe,Successful Logon,2.1833219739393215,116,0.1,Medium,1,normal
+2026-03-27 21:19:54,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,2858,powershell.exe,Successful Logon,2.378537020721619,131,0.1,Medium,1,normal
+2026-03-27 21:19:55,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,5212,powershell.exe,Successful Logon,3.9029689569172903,147,0.1,Medium,1,normal
+2026-03-27 21:19:56,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,5160,explorer.exe,Successful Logon,3.84315098839171,41,0.1,Medium,1,normal
+2026-03-27 21:19:57,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,867,svchost.exe,Successful Logon,0.11453371830635656,125,0.1,Medium,1,normal
+2026-03-27 21:19:58,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,5885,lsass.exe,Successful Logon,1.9855358913993049,42,0.1,Medium,1,normal
+2026-03-27 21:19:59,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,4182,explorer.exe,Successful Logon,3.100799592263516,128,0.1,Medium,1,normal
+2026-03-27 21:20:00,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,5176,lsass.exe,Successful Logon,1.6299454685432162,70,0.1,Medium,1,normal
+2026-03-27 21:20:01,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,7528,explorer.exe,Successful Logon,1.4820623283407814,55,0.1,Medium,1,normal
+2026-03-27 21:20:02,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,8594,powershell.exe,Successful Logon,1.5936484738805303,52,0.1,Medium,1,normal
+2026-03-27 21:20:03,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,3211,powershell.exe,Successful Logon,1.7542249778624055,45,0.1,Medium,1,normal
+2026-03-27 21:20:04,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,8536,powershell.exe,Successful Logon,2.381944057734803,112,0.1,Medium,1,normal
+2026-03-27 21:20:05,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,7224,svchost.exe,Successful Logon,3.671005192360736,145,0.1,Medium,1,normal
+2026-03-27 21:20:06,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,8651,explorer.exe,Successful Logon,2.752286696389668,86,0.1,Medium,1,normal
+2026-03-27 21:20:07,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,867,explorer.exe,Successful Logon,0.9866085826611803,66,0.1,Medium,1,normal
+2026-03-27 21:20:08,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,2956,explorer.exe,Successful Logon,2.420193825622676,36,0.1,Medium,1,normal
+2026-03-27 21:20:09,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,6091,services.exe,Successful Logon,2.9095057584556,110,0.1,Medium,1,normal
+2026-03-27 21:20:10,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,3128,powershell.exe,Successful Logon,1.40489044744795,33,0.1,Medium,1,normal
+2026-03-27 21:20:11,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,127,lsass.exe,Successful Logon,3.0562154988809613,125,0.1,Medium,1,normal
+2026-03-27 21:20:12,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,2854,svchost.exe,Successful Logon,2.5743788425172336,150,0.1,Medium,1,normal
+2026-03-27 21:20:13,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,1477,powershell.exe,Successful Logon,0.4374284123073935,125,0.1,Medium,1,normal
+2026-03-27 21:20:14,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,6479,svchost.exe,Successful Logon,3.243870722087995,147,0.1,Medium,1,normal
+2026-03-27 21:20:15,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3027,explorer.exe,Successful Logon,3.1648963792567364,108,0.1,Medium,1,normal
+2026-03-27 21:20:16,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,3447,lsass.exe,Successful Logon,1.6144842061268017,77,0.1,Medium,1,normal
+2026-03-27 21:20:17,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,8818,lsass.exe,Successful Logon,3.5595566864378543,131,0.1,Medium,1,normal
+2026-03-27 21:20:18,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,5432,svchost.exe,Successful Logon,0.46405559557162857,149,0.1,Medium,1,normal
+2026-03-27 21:20:19,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,7901,powershell.exe,Successful Logon,2.4507074254561725,107,0.1,Medium,1,normal
+2026-03-27 21:20:20,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,8224,services.exe,Successful Logon,1.6768236455675103,79,0.1,Medium,1,normal
+2026-03-27 21:20:21,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,1147,svchost.exe,Successful Logon,1.048843618138093,104,0.1,Medium,1,normal
+2026-03-27 21:20:22,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,6211,services.exe,Successful Logon,2.1280838741885626,42,0.1,Medium,1,normal
+2026-03-27 21:20:23,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,1221,services.exe,Successful Logon,3.288476270912735,36,0.1,Medium,1,normal
+2026-03-27 21:20:24,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,3039,services.exe,Successful Logon,1.5912489260336462,139,0.1,Medium,1,normal
+2026-03-27 21:20:25,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,6395,services.exe,Successful Logon,1.5872199563910447,112,0.1,Medium,1,normal
+2026-03-27 21:20:26,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,1715,svchost.exe,Successful Logon,1.0129545253408725,39,0.1,Medium,1,normal
+2026-03-27 21:20:27,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,4083,lsass.exe,Successful Logon,0.46586567184761807,93,0.1,Medium,1,normal
+2026-03-27 21:20:28,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,624,explorer.exe,Successful Logon,3.8498027619616857,45,0.1,Medium,1,normal
+2026-03-27 21:20:29,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,6300,powershell.exe,Successful Logon,0.619823140441076,34,0.1,Medium,1,normal
+2026-03-27 21:20:30,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,7458,services.exe,Successful Logon,3.7294144821975572,105,0.1,Medium,1,normal
+2026-03-27 21:20:31,7045,Warning,Service Control,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Install,Service,2749,services.exe,New service PSEXESVC installed,2.0,50,10.0,System,1,suspicious
+2026-03-27 21:20:32,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,8947,services.exe,Successful Logon,2.2806925442980925,134,0.1,Medium,1,normal
+2026-03-27 21:20:33,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,7322,services.exe,Successful Logon,2.5699824149687105,56,0.1,Medium,1,normal
+2026-03-27 21:20:34,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,4921,svchost.exe,Successful Logon,2.1615610279206474,103,0.1,Medium,1,normal
+2026-03-27 21:20:35,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,8581,services.exe,Successful Logon,3.867314999198671,119,0.1,Medium,1,normal
+2026-03-27 21:20:36,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,2954,lsass.exe,Successful Logon,0.9697116160600645,142,0.1,Medium,1,normal
+2026-03-27 21:20:37,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,3801,explorer.exe,Successful Logon,3.008998571929407,90,0.1,Medium,1,normal
+2026-03-27 21:20:38,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,4179,lsass.exe,Successful Logon,2.2221331411265046,69,0.1,Medium,1,normal
+2026-03-27 21:20:39,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,7565,lsass.exe,Successful Logon,1.448434531383453,32,0.1,Medium,1,normal
+2026-03-27 21:20:40,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,1436,explorer.exe,Successful Logon,2.019166391547421,134,0.1,Medium,1,normal
+2026-03-27 21:20:41,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,7512,svchost.exe,Successful Logon,3.8963418579766667,137,0.1,Medium,1,normal
+2026-03-27 21:20:42,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,2470,explorer.exe,Successful Logon,2.271496674170347,148,0.1,Medium,1,normal
+2026-03-27 21:20:43,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,6916,svchost.exe,Successful Logon,3.447775988519091,140,0.1,Medium,1,normal
+2026-03-27 21:20:44,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,5780,lsass.exe,Successful Logon,3.3826746845767963,85,0.1,Medium,1,normal
+2026-03-27 21:20:45,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,6232,explorer.exe,Successful Logon,3.6730155721844286,41,0.1,Medium,1,normal
+2026-03-27 21:20:46,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,4630,explorer.exe,Successful Logon,2.7925708586613065,39,0.1,Medium,1,normal
+2026-03-27 21:20:47,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,8077,powershell.exe,Successful Logon,1.1222278797637608,93,0.1,Medium,1,normal
+2026-03-27 21:20:48,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,430,explorer.exe,Successful Logon,2.900109187490952,56,0.1,Medium,1,normal
+2026-03-27 21:20:49,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,5679,explorer.exe,Successful Logon,0.8975305266631052,150,0.1,Medium,1,normal
+2026-03-27 21:20:50,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,4598,explorer.exe,Successful Logon,0.8573988166983186,77,0.1,Medium,1,normal
+2026-03-27 21:20:51,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,3093,lsass.exe,Successful Logon,2.5948281535711244,146,0.1,Medium,1,normal
+2026-03-27 21:20:52,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,1891,svchost.exe,Successful Logon,3.340990586931154,131,0.1,Medium,1,normal
+2026-03-27 21:20:53,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,7646,svchost.exe,Successful Logon,3.0634608276207937,136,0.1,Medium,1,normal
+2026-03-27 21:20:54,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,4679,powershell.exe,Successful Logon,2.3565817266909206,140,0.1,Medium,1,normal
+2026-03-27 21:20:55,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,7092,powershell.exe,Successful Logon,2.11619227848453,39,0.1,Medium,1,normal
+2026-03-27 21:20:56,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,8641,lsass.exe,Successful Logon,1.5253544671369375,97,0.1,Medium,1,normal
+2026-03-27 21:20:57,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,7263,lsass.exe,Successful Logon,2.0284858932561938,31,0.1,Medium,1,normal
+2026-03-27 21:20:58,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,3186,services.exe,Successful Logon,0.3389564977800086,127,0.1,Medium,1,normal
+2026-03-27 21:20:59,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,7283,powershell.exe,Successful Logon,1.9623860298394669,50,0.1,Medium,1,normal
+2026-03-27 21:21:00,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,6966,explorer.exe,Successful Logon,2.3206279888621424,89,0.1,Medium,1,normal
+2026-03-27 21:21:01,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,5263,lsass.exe,Successful Logon,3.5294851571399652,112,0.1,Medium,1,normal
+2026-03-27 21:21:02,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,7498,powershell.exe,Successful Logon,1.0661953341536676,104,0.1,Medium,1,normal
+2026-03-27 21:21:03,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,1233,lsass.exe,Successful Logon,1.545777057941157,69,0.1,Medium,1,normal
+2026-03-27 21:21:04,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,7060,explorer.exe,Successful Logon,3.763141446683079,43,0.1,Medium,1,normal
+2026-03-27 21:21:05,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,3014,explorer.exe,Successful Logon,2.207929883541325,126,0.1,Medium,1,normal
+2026-03-27 21:21:06,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,6561,services.exe,Successful Logon,1.4559058037953247,104,0.1,Medium,1,normal
+2026-03-27 21:21:07,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,1113,services.exe,Successful Logon,3.2863536749474767,113,0.1,Medium,1,normal
+2026-03-27 21:21:08,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,8416,lsass.exe,Successful Logon,3.0786502818763632,147,0.1,Medium,1,normal
+2026-03-27 21:21:09,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,1127,powershell.exe,Successful Logon,2.0547537801823044,52,0.1,Medium,1,normal
+2026-03-27 21:21:10,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,5973,powershell.exe,Successful Logon,3.7631020156199804,50,0.1,Medium,1,normal
+2026-03-27 21:21:11,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,7933,lsass.exe,Successful Logon,1.5327439643768508,143,0.1,Medium,1,normal
+2026-03-27 21:21:12,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,7980,svchost.exe,Successful Logon,2.202943976728483,42,0.1,Medium,1,normal
+2026-03-27 21:21:13,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,2000,svchost.exe,Successful Logon,2.4847262219786588,38,0.1,Medium,1,normal
+2026-03-27 21:21:14,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,2332,lsass.exe,Successful Logon,2.376223812309692,141,0.1,Medium,1,normal
+2026-03-27 21:21:15,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,3511,explorer.exe,Successful Logon,1.8957818091350875,95,0.1,Medium,1,normal
+2026-03-27 21:21:16,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,4491,services.exe,Successful Logon,3.6368212175076864,99,0.1,Medium,1,normal
+2026-03-27 21:21:17,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,7102,svchost.exe,Successful Logon,1.3780505851848122,79,0.1,Medium,1,normal
+2026-03-27 21:21:18,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,3579,svchost.exe,Successful Logon,2.8482460350229624,87,0.1,Medium,1,normal
+2026-03-27 21:21:19,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,7449,powershell.exe,Successful Logon,3.432742113953259,46,0.1,Medium,1,normal
+2026-03-27 21:21:20,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,3957,svchost.exe,Successful Logon,1.022392574852789,147,0.1,Medium,1,normal
+2026-03-27 21:21:21,4663,Critical,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Write,File System,8370,unknown.exe,Massive file system modification,88.0,2048,150.0,High,0,suspicious
+2026-03-27 21:21:22,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3723,lsass.exe,Successful Logon,0.8706952716157473,63,0.1,Medium,1,normal
+2026-03-27 21:21:23,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,1243,services.exe,Successful Logon,2.8850222885017036,130,0.1,Medium,1,normal
+2026-03-27 21:21:24,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,3811,services.exe,Successful Logon,2.084192872011704,147,0.1,Medium,1,normal
+2026-03-27 21:21:25,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,1465,lsass.exe,Successful Logon,0.37408626857874394,76,0.1,Medium,1,normal
+2026-03-27 21:21:26,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,1601,svchost.exe,Successful Logon,2.47295251384663,50,0.1,Medium,1,normal
+2026-03-27 21:21:27,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,497,powershell.exe,Successful Logon,2.5438239811538557,129,0.1,Medium,1,normal
+2026-03-27 21:21:28,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,5492,lsass.exe,Successful Logon,1.9300245323312453,147,0.1,Medium,1,normal
+2026-03-27 21:21:29,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,4001,powershell.exe,Successful Logon,2.5069778194779384,134,0.1,Medium,1,normal
+2026-03-27 21:21:30,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,6490,services.exe,Successful Logon,2.3404269234595576,52,0.1,Medium,1,normal
+2026-03-27 21:21:31,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,1272,services.exe,Successful Logon,2.9697283164397734,146,0.1,Medium,1,normal
+2026-03-27 21:21:32,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,2951,services.exe,Successful Logon,1.1211424127968825,42,0.1,Medium,1,normal
+2026-03-27 21:21:33,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,941,lsass.exe,Successful Logon,3.2545447710416626,122,0.1,Medium,1,normal
+2026-03-27 21:21:34,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,2737,lsass.exe,Successful Logon,3.4201880823410757,66,0.1,Medium,1,normal
+2026-03-27 21:21:35,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,1333,svchost.exe,Successful Logon,0.8330623623455501,44,0.1,Medium,1,normal
+2026-03-27 21:21:36,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,5226,powershell.exe,Successful Logon,1.7456629731629398,113,0.1,Medium,1,normal
+2026-03-27 21:21:37,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,7836,explorer.exe,Successful Logon,1.6106590342988925,79,0.1,Medium,1,normal
+2026-03-27 21:21:38,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,4830,explorer.exe,Successful Logon,0.27358682548318125,145,0.1,Medium,1,normal
+2026-03-27 21:21:39,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,6648,powershell.exe,Successful Logon,2.0857742558513857,51,0.1,Medium,1,normal
+2026-03-27 21:21:40,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,6128,svchost.exe,Successful Logon,0.331896834720871,149,0.1,Medium,1,normal
+2026-03-27 21:21:41,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,6595,svchost.exe,Successful Logon,1.6992323729666898,87,0.1,Medium,1,normal
+2026-03-27 21:21:42,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,1916,explorer.exe,Successful Logon,3.265294732568456,98,0.1,Medium,1,normal
+2026-03-27 21:21:43,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,6306,explorer.exe,Successful Logon,3.833294129325521,107,0.1,Medium,1,normal
+2026-03-27 21:21:44,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,4007,svchost.exe,Successful Logon,2.0954062117288297,50,0.1,Medium,1,normal
+2026-03-27 21:21:45,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,6535,lsass.exe,Successful Logon,1.1759114788288536,145,0.1,Medium,1,normal
+2026-03-27 21:21:46,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,6164,lsass.exe,Successful Logon,2.9878193875756205,40,0.1,Medium,1,normal
+2026-03-27 21:21:47,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,8512,powershell.exe,Successful Logon,0.9067658844380592,45,0.1,Medium,1,normal
+2026-03-27 21:21:48,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,1871,explorer.exe,Successful Logon,3.923898049589988,106,0.1,Medium,1,normal
+2026-03-27 21:21:49,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,192,lsass.exe,Successful Logon,1.529179236409568,101,0.1,Medium,1,normal
+2026-03-27 21:21:50,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,1844,powershell.exe,Successful Logon,2.492429672423315,142,0.1,Medium,1,normal
+2026-03-27 21:21:51,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,765,explorer.exe,Successful Logon,2.534538712274911,131,0.1,Medium,1,normal
+2026-03-27 21:21:52,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,429,powershell.exe,Successful Logon,1.3559171700262207,141,0.1,Medium,1,normal
+2026-03-27 21:21:53,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,376,explorer.exe,Successful Logon,2.7213542616126256,123,0.1,Medium,1,normal
+2026-03-27 21:21:54,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,6305,powershell.exe,Successful Logon,1.8786815911307821,91,0.1,Medium,1,normal
+2026-03-27 21:21:55,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,1306,explorer.exe,Successful Logon,1.467937616409306,129,0.1,Medium,1,normal
+2026-03-27 21:21:56,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,4223,explorer.exe,Successful Logon,1.8153659239790583,74,0.1,Medium,1,normal
+2026-03-27 21:21:57,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,4516,svchost.exe,Successful Logon,3.9501748593156765,131,0.1,Medium,1,normal
+2026-03-27 21:21:58,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,7610,explorer.exe,Successful Logon,1.2851341434140888,33,0.1,Medium,1,normal
+2026-03-27 21:21:59,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,6759,powershell.exe,Successful Logon,0.5768854310962863,89,0.1,Medium,1,normal
+2026-03-27 21:22:00,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,3720,services.exe,Successful Logon,2.7604691034261113,105,0.1,Medium,1,normal
+2026-03-27 21:22:01,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,7477,svchost.exe,Successful Logon,2.3611293634435184,123,0.1,Medium,1,normal
+2026-03-27 21:22:02,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,6194,svchost.exe,Successful Logon,3.471193293539069,61,0.1,Medium,1,normal
+2026-03-27 21:22:03,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,8120,powershell.exe,Successful Logon,1.8205439035269046,146,0.1,Medium,1,normal
+2026-03-27 21:22:04,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,5311,svchost.exe,Successful Logon,3.6863805376357215,126,0.1,Medium,1,normal
+2026-03-27 21:22:05,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,1518,explorer.exe,Successful Logon,3.8120122575504487,130,0.1,Medium,1,normal
+2026-03-27 21:22:06,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,1249,powershell.exe,Successful Logon,0.4522905287159804,121,0.1,Medium,1,normal
+2026-03-27 21:22:07,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,3373,powershell.exe,Successful Logon,1.263390795395804,47,0.1,Medium,1,normal
+2026-03-27 21:22:08,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,7730,explorer.exe,Successful Logon,0.7353577247361717,35,0.1,Medium,1,normal
+2026-03-27 21:22:09,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,4091,services.exe,Successful Logon,0.745638748823525,87,0.1,Medium,1,normal
+2026-03-27 21:22:10,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,3581,svchost.exe,Successful Logon,2.442747766518287,79,0.1,Medium,1,normal
+2026-03-27 21:22:11,1102,Warning,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Info,Log Clear,5060,powershell.exe,The security log was cleared,5.0,150,0.5,System,1,suspicious
+2026-03-27 21:22:12,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,8466,explorer.exe,Successful Logon,0.4894497083224304,37,0.1,Medium,1,normal
+2026-03-27 21:22:13,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,4360,lsass.exe,Successful Logon,1.9823262973609,142,0.1,Medium,1,normal
+2026-03-27 21:22:14,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,6622,services.exe,Successful Logon,2.4968519631271824,144,0.1,Medium,1,normal
+2026-03-27 21:22:15,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,1929,services.exe,Successful Logon,2.8394500822859228,30,0.1,Medium,1,normal
+2026-03-27 21:22:16,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,6445,lsass.exe,Successful Logon,3.4357712319264055,93,0.1,Medium,1,normal
+2026-03-27 21:22:17,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,1640,svchost.exe,Successful Logon,1.393053741391971,70,0.1,Medium,1,normal
+2026-03-27 21:22:18,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,2928,lsass.exe,Successful Logon,2.1957878681873386,57,0.1,Medium,1,normal
+2026-03-27 21:22:19,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,2950,services.exe,Successful Logon,1.5067116228697819,130,0.1,Medium,1,normal
+2026-03-27 21:22:20,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,8012,services.exe,Successful Logon,0.5763494749111105,115,0.1,Medium,1,normal
+2026-03-27 21:22:21,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,6351,services.exe,Successful Logon,0.5953092971046269,92,0.1,Medium,1,normal
+2026-03-27 21:22:22,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,6285,lsass.exe,Successful Logon,3.5177723199120305,36,0.1,Medium,1,normal
+2026-03-27 21:22:23,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,3145,explorer.exe,Successful Logon,2.2268398897347055,115,0.1,Medium,1,normal
+2026-03-27 21:22:24,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,6842,svchost.exe,Successful Logon,1.6198240496088079,150,0.1,Medium,1,normal
+2026-03-27 21:22:25,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,8522,svchost.exe,Successful Logon,3.9447136217828196,132,0.1,Medium,1,normal
+2026-03-27 21:22:26,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,8840,explorer.exe,Successful Logon,0.6799907354981852,105,0.1,Medium,1,normal
+2026-03-27 21:22:27,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,8975,svchost.exe,Successful Logon,3.74974003855493,54,0.1,Medium,1,normal
+2026-03-27 21:22:28,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,5502,lsass.exe,Successful Logon,2.4999277531227397,85,0.1,Medium,1,normal
+2026-03-27 21:22:29,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,457,explorer.exe,Successful Logon,3.6497363522459683,74,0.1,Medium,1,normal
+2026-03-27 21:22:30,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,8153,svchost.exe,Successful Logon,0.8863324245120383,58,0.1,Medium,1,normal
+2026-03-27 21:22:31,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,4143,powershell.exe,Successful Logon,3.907075606272486,136,0.1,Medium,1,normal
+2026-03-27 21:22:32,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,409,powershell.exe,Successful Logon,0.763991000553098,88,0.1,Medium,1,normal
+2026-03-27 21:22:33,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,1912,svchost.exe,Successful Logon,1.9650436197280488,35,0.1,Medium,1,normal
+2026-03-27 21:22:34,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,7729,svchost.exe,Successful Logon,3.332574718233042,105,0.1,Medium,1,normal
+2026-03-27 21:22:35,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,8947,lsass.exe,Successful Logon,3.0037320166720503,132,0.1,Medium,1,normal
+2026-03-27 21:22:36,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,2925,services.exe,Successful Logon,1.2669696249706701,79,0.1,Medium,1,normal
+2026-03-27 21:22:37,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,7490,services.exe,Successful Logon,1.4390624186291499,77,0.1,Medium,1,normal
+2026-03-27 21:22:38,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,6818,services.exe,Successful Logon,2.0944608651226924,131,0.1,Medium,1,normal
+2026-03-27 21:22:39,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,8509,powershell.exe,Successful Logon,3.174123097408788,101,0.1,Medium,1,normal
+2026-03-27 21:22:40,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3245,explorer.exe,Successful Logon,0.49222559016820633,63,0.1,Medium,1,normal
+2026-03-27 21:22:41,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,4148,explorer.exe,Successful Logon,2.296717840357157,96,0.1,Medium,1,normal
+2026-03-27 21:22:42,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,3340,svchost.exe,Successful Logon,2.7372741716008555,91,0.1,Medium,1,normal
+2026-03-27 21:22:43,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,3486,powershell.exe,Successful Logon,3.870080044960807,64,0.1,Medium,1,normal
+2026-03-27 21:22:44,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,3705,svchost.exe,Successful Logon,3.55127789156811,50,0.1,Medium,1,normal
+2026-03-27 21:22:45,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,4256,svchost.exe,Successful Logon,2.777460070428257,52,0.1,Medium,1,normal
+2026-03-27 21:22:46,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,3551,lsass.exe,Successful Logon,1.8848391988801836,35,0.1,Medium,1,normal
+2026-03-27 21:22:47,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,463,svchost.exe,Successful Logon,1.5601222233954308,139,0.1,Medium,1,normal
+2026-03-27 21:22:48,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,8348,svchost.exe,Successful Logon,1.615099379108979,99,0.1,Medium,1,normal
+2026-03-27 21:22:49,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,2566,svchost.exe,Successful Logon,1.958776236831221,99,0.1,Medium,1,normal
+2026-03-27 21:22:50,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,4688,explorer.exe,Successful Logon,1.7031724368493792,113,0.1,Medium,1,normal
+2026-03-27 21:22:51,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,8447,powershell.exe,Successful Logon,0.375714704722388,116,0.1,Medium,1,normal
+2026-03-27 21:22:52,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,7562,lsass.exe,Successful Logon,3.7918414597686145,133,0.1,Medium,1,normal
+2026-03-27 21:22:53,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,1582,svchost.exe,Successful Logon,1.7578963512223367,102,0.1,Medium,1,normal
+2026-03-27 21:22:54,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,8407,explorer.exe,Successful Logon,2.531098779637727,116,0.1,Medium,1,normal
+2026-03-27 21:22:55,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,4447,services.exe,Successful Logon,3.333520404681643,109,0.1,Medium,1,normal
+2026-03-27 21:22:56,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,8550,svchost.exe,Successful Logon,0.9233169458438407,62,0.1,Medium,1,normal
+2026-03-27 21:22:57,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,8050,explorer.exe,Successful Logon,1.0226151691480756,95,0.1,Medium,1,normal
+2026-03-27 21:22:58,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,8073,svchost.exe,Successful Logon,2.7196826373939804,75,0.1,Medium,1,normal
+2026-03-27 21:22:59,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,8939,lsass.exe,Successful Logon,2.4495642051465256,97,0.1,Medium,1,normal
+2026-03-27 21:23:00,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,4580,explorer.exe,Successful Logon,0.21824668073805276,92,0.1,Medium,1,normal
+2026-03-27 21:23:01,10,Critical,Sysmon,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Read,Process Access,4468,mimikatz.exe,LSASS memory access detected,15.0,600,20.0,System,0,suspicious
+2026-03-27 21:23:02,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,7450,explorer.exe,Successful Logon,0.6615629505956286,95,0.1,Medium,1,normal
+2026-03-27 21:23:03,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,1308,lsass.exe,Successful Logon,3.4378863269309377,35,0.1,Medium,1,normal
+2026-03-27 21:23:04,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,5420,explorer.exe,Successful Logon,2.5212863013084217,106,0.1,Medium,1,normal
+2026-03-27 21:23:05,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,6888,svchost.exe,Successful Logon,2.1069281188586446,68,0.1,Medium,1,normal
+2026-03-27 21:23:06,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,2471,explorer.exe,Successful Logon,0.9728948385958504,88,0.1,Medium,1,normal
+2026-03-27 21:23:07,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,7779,services.exe,Successful Logon,0.17091915579273606,137,0.1,Medium,1,normal
+2026-03-27 21:23:08,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,2616,lsass.exe,Successful Logon,1.4894493360547931,75,0.1,Medium,1,normal
+2026-03-27 21:23:09,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,7459,explorer.exe,Successful Logon,0.5464934287779915,129,0.1,Medium,1,normal
+2026-03-27 21:23:10,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,2586,explorer.exe,Successful Logon,0.1862953404965803,135,0.1,Medium,1,normal
+2026-03-27 21:23:11,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,6832,services.exe,Successful Logon,0.5070253803252953,58,0.1,Medium,1,normal
+2026-03-27 21:23:12,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,3605,powershell.exe,Successful Logon,1.8897985630829197,99,0.1,Medium,1,normal
+2026-03-27 21:23:13,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,7419,lsass.exe,Successful Logon,2.4087019774774046,130,0.1,Medium,1,normal
+2026-03-27 21:23:14,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,5855,services.exe,Successful Logon,3.3944517375966448,50,0.1,Medium,1,normal
+2026-03-27 21:23:15,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,372,svchost.exe,Successful Logon,1.143730456658253,32,0.1,Medium,1,normal
+2026-03-27 21:23:16,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,8905,services.exe,Successful Logon,0.6937304524425464,46,0.1,Medium,1,normal
+2026-03-27 21:23:17,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,1836,lsass.exe,Successful Logon,0.8761207766336707,140,0.1,Medium,1,normal
+2026-03-27 21:23:18,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,7296,lsass.exe,Successful Logon,2.9192053065041956,112,0.1,Medium,1,normal
+2026-03-27 21:23:19,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,4725,svchost.exe,Successful Logon,0.1344516106386029,132,0.1,Medium,1,normal
+2026-03-27 21:23:20,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,3849,explorer.exe,Successful Logon,0.1394630325488438,120,0.1,Medium,1,normal
+2026-03-27 21:23:21,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,1588,services.exe,Successful Logon,0.528201160270765,132,0.1,Medium,1,normal
+2026-03-27 21:23:22,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,5224,explorer.exe,Successful Logon,0.6253169393158824,135,0.1,Medium,1,normal
+2026-03-27 21:23:23,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,624,services.exe,Successful Logon,0.9101736366230826,56,0.1,Medium,1,normal
+2026-03-27 21:23:24,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,3622,lsass.exe,Successful Logon,3.9980284313061993,139,0.1,Medium,1,normal
+2026-03-27 21:23:25,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,6529,svchost.exe,Successful Logon,0.689050133587382,81,0.1,Medium,1,normal
+2026-03-27 21:23:26,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,1147,services.exe,Successful Logon,1.9120886913236848,139,0.1,Medium,1,normal
+2026-03-27 21:23:27,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,5349,explorer.exe,Successful Logon,0.5212769066408116,73,0.1,Medium,1,normal
+2026-03-27 21:23:28,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,6207,lsass.exe,Successful Logon,2.2942101341832437,60,0.1,Medium,1,normal
+2026-03-27 21:23:29,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,7010,powershell.exe,Successful Logon,3.1374449528544206,65,0.1,Medium,1,normal
+2026-03-27 21:23:30,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,6496,explorer.exe,Successful Logon,0.9151772107415207,115,0.1,Medium,1,normal
+2026-03-27 21:23:31,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,3470,powershell.exe,Successful Logon,2.956253072357935,31,0.1,Medium,1,normal
+2026-03-27 21:23:32,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,5899,lsass.exe,Successful Logon,2.354017756278535,115,0.1,Medium,1,normal
+2026-03-27 21:23:33,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,4868,powershell.exe,Successful Logon,3.7523906595955405,53,0.1,Medium,1,normal
+2026-03-27 21:23:34,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,7914,svchost.exe,Successful Logon,3.3107735976526746,52,0.1,Medium,1,normal
+2026-03-27 21:23:35,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,1249,services.exe,Successful Logon,1.941416579935969,44,0.1,Medium,1,normal
+2026-03-27 21:23:36,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,7193,services.exe,Successful Logon,2.9309260388414895,71,0.1,Medium,1,normal
+2026-03-27 21:23:37,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,3091,lsass.exe,Successful Logon,2.7142925223248113,131,0.1,Medium,1,normal
+2026-03-27 21:23:38,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,3632,svchost.exe,Successful Logon,1.8631620899163372,93,0.1,Medium,1,normal
+2026-03-27 21:23:39,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,2539,lsass.exe,Successful Logon,2.4813334599451418,35,0.1,Medium,1,normal
+2026-03-27 21:23:40,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,5643,services.exe,Successful Logon,1.6858855038591272,117,0.1,Medium,1,normal
+2026-03-27 21:23:41,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,6783,explorer.exe,Successful Logon,3.5042607275790445,133,0.1,Medium,1,normal
+2026-03-27 21:23:42,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,6198,lsass.exe,Successful Logon,3.907183651914723,61,0.1,Medium,1,normal
+2026-03-27 21:23:43,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,1607,explorer.exe,Successful Logon,1.2794950370871703,58,0.1,Medium,1,normal
+2026-03-27 21:23:44,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,4695,explorer.exe,Successful Logon,1.2363357223767695,74,0.1,Medium,1,normal
+2026-03-27 21:23:45,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,184,svchost.exe,Successful Logon,1.7310912573383699,48,0.1,Medium,1,normal
+2026-03-27 21:23:46,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,6904,services.exe,Successful Logon,2.2875434588816064,77,0.1,Medium,1,normal
+2026-03-27 21:23:47,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,4104,services.exe,Successful Logon,3.9034154599076514,40,0.1,Medium,1,normal
+2026-03-27 21:23:48,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,4820,explorer.exe,Successful Logon,1.9289175265876766,75,0.1,Medium,1,normal
+2026-03-27 21:23:49,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,1189,explorer.exe,Successful Logon,0.6818479085654036,139,0.1,Medium,1,normal
+2026-03-27 21:23:50,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,5510,services.exe,Successful Logon,2.3666061493702473,149,0.1,Medium,1,normal
+2026-03-27 21:23:51,7045,Warning,Service Control,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Install,Service,1580,services.exe,New service PSEXESVC installed,2.0,50,10.0,System,1,suspicious
+2026-03-27 21:23:52,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,510,services.exe,Successful Logon,2.419991653608038,141,0.1,Medium,1,normal
+2026-03-27 21:23:53,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,8762,svchost.exe,Successful Logon,3.6862473962868716,59,0.1,Medium,1,normal
+2026-03-27 21:23:54,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,3940,powershell.exe,Successful Logon,2.7049355364061074,54,0.1,Medium,1,normal
+2026-03-27 21:23:55,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,4114,powershell.exe,Successful Logon,1.9486979173849663,46,0.1,Medium,1,normal
+2026-03-27 21:23:56,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,8348,powershell.exe,Successful Logon,0.7587654640899107,83,0.1,Medium,1,normal
+2026-03-27 21:23:57,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,1243,services.exe,Successful Logon,0.35786403246725385,101,0.1,Medium,1,normal
+2026-03-27 21:23:58,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,1457,services.exe,Successful Logon,0.9487518349268913,139,0.1,Medium,1,normal
+2026-03-27 21:23:59,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,8275,svchost.exe,Successful Logon,1.8983040291286182,75,0.1,Medium,1,normal
+2026-03-27 21:24:00,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,5287,lsass.exe,Successful Logon,1.1853859082570959,146,0.1,Medium,1,normal
+2026-03-27 21:24:01,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,2482,services.exe,Successful Logon,1.2263926557518867,137,0.1,Medium,1,normal
+2026-03-27 21:24:02,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,6490,services.exe,Successful Logon,3.238774726238736,97,0.1,Medium,1,normal
+2026-03-27 21:24:03,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,6940,lsass.exe,Successful Logon,0.9183599770576767,131,0.1,Medium,1,normal
+2026-03-27 21:24:04,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,5098,lsass.exe,Successful Logon,0.4165742329930392,50,0.1,Medium,1,normal
+2026-03-27 21:24:05,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,4357,svchost.exe,Successful Logon,2.4147038042665154,53,0.1,Medium,1,normal
+2026-03-27 21:24:06,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,6768,explorer.exe,Successful Logon,2.611257293289401,42,0.1,Medium,1,normal
+2026-03-27 21:24:07,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,6535,explorer.exe,Successful Logon,2.1786904515545724,147,0.1,Medium,1,normal
+2026-03-27 21:24:08,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,2272,lsass.exe,Successful Logon,2.6831644072964274,70,0.1,Medium,1,normal
+2026-03-27 21:24:09,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,5052,services.exe,Successful Logon,0.5364700430001665,118,0.1,Medium,1,normal
+2026-03-27 21:24:10,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,8542,svchost.exe,Successful Logon,1.9706749082250348,42,0.1,Medium,1,normal
+2026-03-27 21:24:11,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,7316,powershell.exe,Successful Logon,2.4753607927027246,101,0.1,Medium,1,normal
+2026-03-27 21:24:12,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,322,services.exe,Successful Logon,1.7809889362389202,40,0.1,Medium,1,normal
+2026-03-27 21:24:13,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,1005,lsass.exe,Successful Logon,2.795474302913763,36,0.1,Medium,1,normal
+2026-03-27 21:24:14,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,6390,services.exe,Successful Logon,0.5097013089802214,69,0.1,Medium,1,normal
+2026-03-27 21:24:15,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,6148,powershell.exe,Successful Logon,0.735269519160272,64,0.1,Medium,1,normal
+2026-03-27 21:24:16,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,5729,services.exe,Successful Logon,0.18072521373211997,64,0.1,Medium,1,normal
+2026-03-27 21:24:17,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,3577,explorer.exe,Successful Logon,1.9171764270532303,37,0.1,Medium,1,normal
+2026-03-27 21:24:18,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,2722,svchost.exe,Successful Logon,2.6906805352179024,126,0.1,Medium,1,normal
+2026-03-27 21:24:19,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,7205,explorer.exe,Successful Logon,3.464276103760441,42,0.1,Medium,1,normal
+2026-03-27 21:24:20,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,7574,services.exe,Successful Logon,2.394823878806687,100,0.1,Medium,1,normal
+2026-03-27 21:24:21,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,2452,powershell.exe,Successful Logon,3.3014544938999766,47,0.1,Medium,1,normal
+2026-03-27 21:24:22,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,4658,services.exe,Successful Logon,3.084284839090153,122,0.1,Medium,1,normal
+2026-03-27 21:24:23,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,7389,lsass.exe,Successful Logon,1.1579893136709871,82,0.1,Medium,1,normal
+2026-03-27 21:24:24,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,7797,lsass.exe,Successful Logon,0.7790778843585333,132,0.1,Medium,1,normal
+2026-03-27 21:24:25,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,2399,powershell.exe,Successful Logon,2.4850072535096444,57,0.1,Medium,1,normal
+2026-03-27 21:24:26,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,3386,explorer.exe,Successful Logon,3.28826618269375,109,0.1,Medium,1,normal
+2026-03-27 21:24:27,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,8218,services.exe,Successful Logon,2.3931728926455285,71,0.1,Medium,1,normal
+2026-03-27 21:24:28,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,1418,powershell.exe,Successful Logon,1.8463474398144388,108,0.1,Medium,1,normal
+2026-03-27 21:24:29,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,3565,lsass.exe,Successful Logon,1.3583020686340945,63,0.1,Medium,1,normal
+2026-03-27 21:24:30,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3266,explorer.exe,Successful Logon,2.0980218427898363,115,0.1,Medium,1,normal
+2026-03-27 21:24:31,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,2652,svchost.exe,Successful Logon,1.3324857751354735,48,0.1,Medium,1,normal
+2026-03-27 21:24:32,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,3727,lsass.exe,Successful Logon,2.1622783929614027,111,0.1,Medium,1,normal
+2026-03-27 21:24:33,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,6542,lsass.exe,Successful Logon,1.4279301995106373,83,0.1,Medium,1,normal
+2026-03-27 21:24:34,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,7066,lsass.exe,Successful Logon,1.319302674652817,47,0.1,Medium,1,normal
+2026-03-27 21:24:35,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,1854,svchost.exe,Successful Logon,3.231646740814113,134,0.1,Medium,1,normal
+2026-03-27 21:24:36,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,4935,lsass.exe,Successful Logon,2.7316171225141135,62,0.1,Medium,1,normal
+2026-03-27 21:24:37,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,8588,services.exe,Successful Logon,3.078557950783767,116,0.1,Medium,1,normal
+2026-03-27 21:24:38,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,8262,powershell.exe,Successful Logon,2.7844410302729927,67,0.1,Medium,1,normal
+2026-03-27 21:24:39,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,4363,lsass.exe,Successful Logon,2.486248994345569,44,0.1,Medium,1,normal
+2026-03-27 21:24:40,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,6807,powershell.exe,Successful Logon,0.45060577065207397,52,0.1,Medium,1,normal
+2026-03-27 21:24:41,4663,Critical,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Write,File System,929,unknown.exe,Massive file system modification,88.0,2048,150.0,High,0,suspicious
+2026-03-27 21:24:42,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,2067,services.exe,Successful Logon,2.855371340523698,111,0.1,Medium,1,normal
+2026-03-27 21:24:43,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,7125,services.exe,Successful Logon,3.5094654367908245,130,0.1,Medium,1,normal
+2026-03-27 21:24:44,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,8546,lsass.exe,Successful Logon,1.5956642014108229,112,0.1,Medium,1,normal
+2026-03-27 21:24:45,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,161,explorer.exe,Successful Logon,0.18137029482468225,125,0.1,Medium,1,normal
+2026-03-27 21:24:46,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,7644,services.exe,Successful Logon,0.5595981045944519,124,0.1,Medium,1,normal
+2026-03-27 21:24:47,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,3056,svchost.exe,Successful Logon,3.8911898288675366,32,0.1,Medium,1,normal
+2026-03-27 21:24:48,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,3504,lsass.exe,Successful Logon,3.3362956567248006,46,0.1,Medium,1,normal
+2026-03-27 21:24:49,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,7821,services.exe,Successful Logon,0.7216632213594847,32,0.1,Medium,1,normal
+2026-03-27 21:24:50,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,285,services.exe,Successful Logon,3.144638402655306,72,0.1,Medium,1,normal
+2026-03-27 21:24:51,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,6399,powershell.exe,Successful Logon,3.576202188915278,63,0.1,Medium,1,normal
+2026-03-27 21:24:52,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,4912,services.exe,Successful Logon,1.9519525682228025,141,0.1,Medium,1,normal
+2026-03-27 21:24:53,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,1480,powershell.exe,Successful Logon,1.1594445271125915,68,0.1,Medium,1,normal
+2026-03-27 21:24:54,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,1216,powershell.exe,Successful Logon,3.9459265244146047,72,0.1,Medium,1,normal
+2026-03-27 21:24:55,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,7592,lsass.exe,Successful Logon,0.9583406014202626,62,0.1,Medium,1,normal
+2026-03-27 21:24:56,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,7256,powershell.exe,Successful Logon,2.8762623736679482,47,0.1,Medium,1,normal
+2026-03-27 21:24:57,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,4072,svchost.exe,Successful Logon,3.168361149518371,81,0.1,Medium,1,normal
+2026-03-27 21:24:58,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,6406,lsass.exe,Successful Logon,0.9384798218668676,54,0.1,Medium,1,normal
+2026-03-27 21:24:59,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,6528,lsass.exe,Successful Logon,3.8955407767001673,149,0.1,Medium,1,normal
+2026-03-27 21:25:00,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,4978,explorer.exe,Successful Logon,0.21500594153913605,94,0.1,Medium,1,normal
+2026-03-27 21:25:01,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,6036,powershell.exe,Successful Logon,2.194351501828536,98,0.1,Medium,1,normal
+2026-03-27 21:25:02,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,2298,explorer.exe,Successful Logon,2.4841465919868537,73,0.1,Medium,1,normal
+2026-03-27 21:25:03,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,2385,powershell.exe,Successful Logon,2.184526132286332,127,0.1,Medium,1,normal
+2026-03-27 21:25:04,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,5780,powershell.exe,Successful Logon,0.9589732908920813,90,0.1,Medium,1,normal
+2026-03-27 21:25:05,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,5772,powershell.exe,Successful Logon,0.23732496309692674,80,0.1,Medium,1,normal
+2026-03-27 21:25:06,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,5231,powershell.exe,Successful Logon,3.78713069217095,104,0.1,Medium,1,normal
+2026-03-27 21:25:07,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,2295,svchost.exe,Successful Logon,3.3417555569657895,94,0.1,Medium,1,normal
+2026-03-27 21:25:08,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,7489,lsass.exe,Successful Logon,2.881951975834751,115,0.1,Medium,1,normal
+2026-03-27 21:25:09,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,5226,powershell.exe,Successful Logon,1.2112378947921791,70,0.1,Medium,1,normal
+2026-03-27 21:25:10,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,7592,svchost.exe,Successful Logon,2.5897455307184933,84,0.1,Medium,1,normal
+2026-03-27 21:25:11,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,8749,svchost.exe,Successful Logon,0.40733264825291904,73,0.1,Medium,1,normal
+2026-03-27 21:25:12,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,3504,lsass.exe,Successful Logon,0.7497613279538893,138,0.1,Medium,1,normal
+2026-03-27 21:25:13,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,5093,powershell.exe,Successful Logon,3.192596605916592,47,0.1,Medium,1,normal
+2026-03-27 21:25:14,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,2653,services.exe,Successful Logon,1.3788038219372583,45,0.1,Medium,1,normal
+2026-03-27 21:25:15,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,1661,lsass.exe,Successful Logon,3.143945703438355,130,0.1,Medium,1,normal
+2026-03-27 21:25:16,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,2675,lsass.exe,Successful Logon,1.5001145343292823,60,0.1,Medium,1,normal
+2026-03-27 21:25:17,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,5528,powershell.exe,Successful Logon,0.7300438981860652,132,0.1,Medium,1,normal
+2026-03-27 21:25:18,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,4834,explorer.exe,Successful Logon,2.8445914096986282,146,0.1,Medium,1,normal
+2026-03-27 21:25:19,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3358,services.exe,Successful Logon,3.6983689728053113,100,0.1,Medium,1,normal
+2026-03-27 21:25:20,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,1001,lsass.exe,Successful Logon,3.1052098515135187,38,0.1,Medium,1,normal
+2026-03-27 21:25:21,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,2133,services.exe,Successful Logon,1.0094346443799704,45,0.1,Medium,1,normal
+2026-03-27 21:25:22,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,6293,lsass.exe,Successful Logon,3.696471263332668,123,0.1,Medium,1,normal
+2026-03-27 21:25:23,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,1674,services.exe,Successful Logon,0.8000005897186003,38,0.1,Medium,1,normal
+2026-03-27 21:25:24,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,2018,services.exe,Successful Logon,3.6497133347037294,146,0.1,Medium,1,normal
+2026-03-27 21:25:25,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,4464,explorer.exe,Successful Logon,2.097822457628464,128,0.1,Medium,1,normal
+2026-03-27 21:25:26,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,6382,explorer.exe,Successful Logon,2.122731970333505,88,0.1,Medium,1,normal
+2026-03-27 21:25:27,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,7500,explorer.exe,Successful Logon,2.9047400664386,70,0.1,Medium,1,normal
+2026-03-27 21:25:28,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,6609,services.exe,Successful Logon,1.5785252956225337,44,0.1,Medium,1,normal
+2026-03-27 21:25:29,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,7544,explorer.exe,Successful Logon,1.2409947690095167,30,0.1,Medium,1,normal
+2026-03-27 21:25:30,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,6958,explorer.exe,Successful Logon,2.864947605105053,79,0.1,Medium,1,normal
+2026-03-27 21:25:31,1102,Warning,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Info,Log Clear,415,powershell.exe,The security log was cleared,5.0,150,0.5,System,1,suspicious
+2026-03-27 21:25:32,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,6815,explorer.exe,Successful Logon,2.3446667072279697,49,0.1,Medium,1,normal
+2026-03-27 21:25:33,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,2257,services.exe,Successful Logon,3.139109182214175,39,0.1,Medium,1,normal
+2026-03-27 21:25:34,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,7502,services.exe,Successful Logon,1.1969226630611105,68,0.1,Medium,1,normal
+2026-03-27 21:25:35,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,7215,lsass.exe,Successful Logon,0.9127537205381212,124,0.1,Medium,1,normal
+2026-03-27 21:25:36,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,948,lsass.exe,Successful Logon,2.953882439478378,99,0.1,Medium,1,normal
+2026-03-27 21:25:37,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,7744,services.exe,Successful Logon,3.108871066699378,68,0.1,Medium,1,normal
+2026-03-27 21:25:38,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,6080,powershell.exe,Successful Logon,2.150065152610413,82,0.1,Medium,1,normal
+2026-03-27 21:25:39,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,2470,powershell.exe,Successful Logon,3.1149453964254534,80,0.1,Medium,1,normal
+2026-03-27 21:25:40,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,6060,lsass.exe,Successful Logon,2.7914988118051425,64,0.1,Medium,1,normal
+2026-03-27 21:25:41,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,4369,powershell.exe,Successful Logon,0.8436025415584941,140,0.1,Medium,1,normal
+2026-03-27 21:25:42,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,6502,svchost.exe,Successful Logon,0.3200091895901526,84,0.1,Medium,1,normal
+2026-03-27 21:25:43,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,4100,powershell.exe,Successful Logon,1.678013674513683,91,0.1,Medium,1,normal
+2026-03-27 21:25:44,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,6400,lsass.exe,Successful Logon,0.12255153595705987,121,0.1,Medium,1,normal
+2026-03-27 21:25:45,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,3421,services.exe,Successful Logon,1.7051373764714797,69,0.1,Medium,1,normal
+2026-03-27 21:25:46,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,8126,powershell.exe,Successful Logon,3.04809243131502,51,0.1,Medium,1,normal
+2026-03-27 21:25:47,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,7971,powershell.exe,Successful Logon,2.815171387962057,93,0.1,Medium,1,normal
+2026-03-27 21:25:48,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,4868,powershell.exe,Successful Logon,1.8016238425244497,103,0.1,Medium,1,normal
+2026-03-27 21:25:49,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,6636,svchost.exe,Successful Logon,2.68107329118734,56,0.1,Medium,1,normal
+2026-03-27 21:25:50,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,8117,explorer.exe,Successful Logon,3.2049673486119574,143,0.1,Medium,1,normal
+2026-03-27 21:25:51,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,320,services.exe,Successful Logon,0.5200945926426784,100,0.1,Medium,1,normal
+2026-03-27 21:25:52,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,6094,svchost.exe,Successful Logon,1.9958645552602632,93,0.1,Medium,1,normal
+2026-03-27 21:25:53,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,3342,lsass.exe,Successful Logon,2.5618345595386396,85,0.1,Medium,1,normal
+2026-03-27 21:25:54,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,7557,lsass.exe,Successful Logon,1.2171659533853965,63,0.1,Medium,1,normal
+2026-03-27 21:25:55,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,6180,services.exe,Successful Logon,1.5262738615766895,120,0.1,Medium,1,normal
+2026-03-27 21:25:56,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,3317,lsass.exe,Successful Logon,3.8901268413779504,45,0.1,Medium,1,normal
+2026-03-27 21:25:57,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,4264,svchost.exe,Successful Logon,2.381454512013542,89,0.1,Medium,1,normal
+2026-03-27 21:25:58,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,584,explorer.exe,Successful Logon,1.696970142861743,38,0.1,Medium,1,normal
+2026-03-27 21:25:59,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,8806,explorer.exe,Successful Logon,2.195831975374171,128,0.1,Medium,1,normal
+2026-03-27 21:26:00,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,8695,svchost.exe,Successful Logon,0.35810114486274414,51,0.1,Medium,1,normal
+2026-03-27 21:26:01,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,694,explorer.exe,Successful Logon,1.615749053038824,102,0.1,Medium,1,normal
+2026-03-27 21:26:02,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,7001,explorer.exe,Successful Logon,3.644622791378414,76,0.1,Medium,1,normal
+2026-03-27 21:26:03,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,4859,services.exe,Successful Logon,3.629218094059417,144,0.1,Medium,1,normal
+2026-03-27 21:26:04,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,358,svchost.exe,Successful Logon,3.9302782071956246,42,0.1,Medium,1,normal
+2026-03-27 21:26:05,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,5394,powershell.exe,Successful Logon,3.402961915883306,66,0.1,Medium,1,normal
+2026-03-27 21:26:06,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,4231,lsass.exe,Successful Logon,3.9282853532464936,139,0.1,Medium,1,normal
+2026-03-27 21:26:07,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,786,powershell.exe,Successful Logon,3.891532178582261,127,0.1,Medium,1,normal
+2026-03-27 21:26:08,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,7536,services.exe,Successful Logon,0.8291852983347159,141,0.1,Medium,1,normal
+2026-03-27 21:26:09,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,7347,powershell.exe,Successful Logon,2.45871700635964,82,0.1,Medium,1,normal
+2026-03-27 21:26:10,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,106,powershell.exe,Successful Logon,3.5658840404427794,50,0.1,Medium,1,normal
+2026-03-27 21:26:11,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,6573,services.exe,Successful Logon,3.9090986899106737,45,0.1,Medium,1,normal
+2026-03-27 21:26:12,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3448,lsass.exe,Successful Logon,1.3327119659127902,67,0.1,Medium,1,normal
+2026-03-27 21:26:13,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,5472,lsass.exe,Successful Logon,1.4712643705062847,121,0.1,Medium,1,normal
+2026-03-27 21:26:14,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,8890,services.exe,Successful Logon,0.8988902727222969,99,0.1,Medium,1,normal
+2026-03-27 21:26:15,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,4497,svchost.exe,Successful Logon,2.7313535791197645,66,0.1,Medium,1,normal
+2026-03-27 21:26:16,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,773,powershell.exe,Successful Logon,2.487838992262889,57,0.1,Medium,1,normal
+2026-03-27 21:26:17,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,3503,services.exe,Successful Logon,2.662136719444468,97,0.1,Medium,1,normal
+2026-03-27 21:26:18,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,7776,powershell.exe,Successful Logon,2.2538290002409465,92,0.1,Medium,1,normal
+2026-03-27 21:26:19,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,2335,lsass.exe,Successful Logon,2.2980707214594243,116,0.1,Medium,1,normal
+2026-03-27 21:26:20,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,7602,powershell.exe,Successful Logon,3.1224931246815792,36,0.1,Medium,1,normal
+2026-03-27 21:26:21,10,Critical,Sysmon,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Read,Process Access,3880,mimikatz.exe,LSASS memory access detected,15.0,600,20.0,System,0,suspicious
+2026-03-27 21:26:22,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,4992,svchost.exe,Successful Logon,2.2754531406716785,125,0.1,Medium,1,normal
+2026-03-27 21:26:23,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,2307,explorer.exe,Successful Logon,1.682751538374389,134,0.1,Medium,1,normal
+2026-03-27 21:26:24,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,6448,powershell.exe,Successful Logon,0.9278175377059084,71,0.1,Medium,1,normal
+2026-03-27 21:26:25,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,7686,lsass.exe,Successful Logon,2.8125764334547485,130,0.1,Medium,1,normal
+2026-03-27 21:26:26,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,5665,services.exe,Successful Logon,0.9280154896293531,145,0.1,Medium,1,normal
+2026-03-27 21:26:27,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,5803,svchost.exe,Successful Logon,0.3897166379897381,77,0.1,Medium,1,normal
+2026-03-27 21:26:28,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3614,explorer.exe,Successful Logon,0.8313922805416766,60,0.1,Medium,1,normal
+2026-03-27 21:26:29,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,4051,explorer.exe,Successful Logon,2.970049019791506,121,0.1,Medium,1,normal
+2026-03-27 21:26:30,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,5947,explorer.exe,Successful Logon,2.5800006402856006,138,0.1,Medium,1,normal
+2026-03-27 21:26:31,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,8445,services.exe,Successful Logon,0.37172612104527725,49,0.1,Medium,1,normal
+2026-03-27 21:26:32,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,2430,svchost.exe,Successful Logon,1.140483026615656,57,0.1,Medium,1,normal
+2026-03-27 21:26:33,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,8849,lsass.exe,Successful Logon,2.1255695342648315,64,0.1,Medium,1,normal
+2026-03-27 21:26:34,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,6441,powershell.exe,Successful Logon,0.3304185474749216,93,0.1,Medium,1,normal
+2026-03-27 21:26:35,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,3692,services.exe,Successful Logon,1.64051224711187,63,0.1,Medium,1,normal
+2026-03-27 21:26:36,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,1044,explorer.exe,Successful Logon,0.12104701325436468,43,0.1,Medium,1,normal
+2026-03-27 21:26:37,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,7469,svchost.exe,Successful Logon,2.141258851945496,93,0.1,Medium,1,normal
+2026-03-27 21:26:38,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,5044,powershell.exe,Successful Logon,3.0598578542933805,43,0.1,Medium,1,normal
+2026-03-27 21:26:39,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,2887,powershell.exe,Successful Logon,0.7606305507069823,138,0.1,Medium,1,normal
+2026-03-27 21:26:40,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,5714,powershell.exe,Successful Logon,2.1942968019158156,147,0.1,Medium,1,normal
+2026-03-27 21:26:41,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,6724,explorer.exe,Successful Logon,1.4497858275719024,87,0.1,Medium,1,normal
+2026-03-27 21:26:42,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,3996,explorer.exe,Successful Logon,1.6583749147222149,38,0.1,Medium,1,normal
+2026-03-27 21:26:43,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,5248,explorer.exe,Successful Logon,1.8577114363415408,88,0.1,Medium,1,normal
+2026-03-27 21:26:44,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,4108,explorer.exe,Successful Logon,0.29896167896967385,137,0.1,Medium,1,normal
+2026-03-27 21:26:45,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,5465,explorer.exe,Successful Logon,1.148293989826097,127,0.1,Medium,1,normal
+2026-03-27 21:26:46,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,3555,svchost.exe,Successful Logon,1.5629671135937313,122,0.1,Medium,1,normal
+2026-03-27 21:26:47,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,128,powershell.exe,Successful Logon,3.8684858390860715,149,0.1,Medium,1,normal
+2026-03-27 21:26:48,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,6687,explorer.exe,Successful Logon,1.042756711480234,94,0.1,Medium,1,normal
+2026-03-27 21:26:49,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,6871,services.exe,Successful Logon,1.3579943034895858,139,0.1,Medium,1,normal
+2026-03-27 21:26:50,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,1402,explorer.exe,Successful Logon,3.294252954690584,95,0.1,Medium,1,normal
+2026-03-27 21:26:51,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,4640,powershell.exe,Successful Logon,2.8140357324757512,40,0.1,Medium,1,normal
+2026-03-27 21:26:52,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,5258,services.exe,Successful Logon,3.2037505272571885,33,0.1,Medium,1,normal
+2026-03-27 21:26:53,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,3898,powershell.exe,Successful Logon,0.8054799501972059,83,0.1,Medium,1,normal
+2026-03-27 21:26:54,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,6902,svchost.exe,Successful Logon,1.23210211858202,85,0.1,Medium,1,normal
+2026-03-27 21:26:55,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,2908,svchost.exe,Successful Logon,2.434680967323815,92,0.1,Medium,1,normal
+2026-03-27 21:26:56,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,1570,explorer.exe,Successful Logon,1.5588774778573733,140,0.1,Medium,1,normal
+2026-03-27 21:26:57,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,6715,powershell.exe,Successful Logon,1.2507876343844304,47,0.1,Medium,1,normal
+2026-03-27 21:26:58,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,2273,explorer.exe,Successful Logon,3.678552065939414,57,0.1,Medium,1,normal
+2026-03-27 21:26:59,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,3798,svchost.exe,Successful Logon,3.7571545460592577,146,0.1,Medium,1,normal
+2026-03-27 21:27:00,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,2553,explorer.exe,Successful Logon,3.802437814727851,68,0.1,Medium,1,normal
+2026-03-27 21:27:01,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,4623,svchost.exe,Successful Logon,1.5351768881852021,91,0.1,Medium,1,normal
+2026-03-27 21:27:02,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,1664,powershell.exe,Successful Logon,2.4906789769316178,67,0.1,Medium,1,normal
+2026-03-27 21:27:03,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,2044,explorer.exe,Successful Logon,0.9723425356815386,88,0.1,Medium,1,normal
+2026-03-27 21:27:04,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,7456,powershell.exe,Successful Logon,3.7510501132833802,103,0.1,Medium,1,normal
+2026-03-27 21:27:05,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,7972,svchost.exe,Successful Logon,3.4498856533645053,116,0.1,Medium,1,normal
+2026-03-27 21:27:06,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3668,svchost.exe,Successful Logon,1.6403817876898732,63,0.1,Medium,1,normal
+2026-03-27 21:27:07,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,284,powershell.exe,Successful Logon,2.0388363727790066,31,0.1,Medium,1,normal
+2026-03-27 21:27:08,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,4304,svchost.exe,Successful Logon,3.5866042864521233,75,0.1,Medium,1,normal
+2026-03-27 21:27:09,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,6775,svchost.exe,Successful Logon,2.882362191598316,51,0.1,Medium,1,normal
+2026-03-27 21:27:10,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,5083,explorer.exe,Successful Logon,3.012974142728736,50,0.1,Medium,1,normal
+2026-03-27 21:27:11,7045,Warning,Service Control,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Install,Service,7681,services.exe,New service PSEXESVC installed,2.0,50,10.0,System,1,suspicious
+2026-03-27 21:27:12,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,2199,svchost.exe,Successful Logon,2.119040883050405,99,0.1,Medium,1,normal
+2026-03-27 21:27:13,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,6137,explorer.exe,Successful Logon,2.6111551067912533,83,0.1,Medium,1,normal
+2026-03-27 21:27:14,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3758,services.exe,Successful Logon,2.335505588707734,55,0.1,Medium,1,normal
+2026-03-27 21:27:15,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,123,services.exe,Successful Logon,0.5793792025417129,42,0.1,Medium,1,normal
+2026-03-27 21:27:16,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,6480,explorer.exe,Successful Logon,0.1820019321878302,114,0.1,Medium,1,normal
+2026-03-27 21:27:17,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,1089,lsass.exe,Successful Logon,3.9510801560844344,42,0.1,Medium,1,normal
+2026-03-27 21:27:18,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,3220,explorer.exe,Successful Logon,0.11948107440795623,32,0.1,Medium,1,normal
+2026-03-27 21:27:19,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,4996,services.exe,Successful Logon,0.576173144252885,128,0.1,Medium,1,normal
+2026-03-27 21:27:20,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,6766,svchost.exe,Successful Logon,2.0143360127455634,88,0.1,Medium,1,normal
+2026-03-27 21:27:21,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,2023,services.exe,Successful Logon,1.8847319296238232,68,0.1,Medium,1,normal
+2026-03-27 21:27:22,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,5154,services.exe,Successful Logon,2.1372127233687204,102,0.1,Medium,1,normal
+2026-03-27 21:27:23,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,8549,services.exe,Successful Logon,0.4175581109095263,150,0.1,Medium,1,normal
+2026-03-27 21:27:24,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,7106,lsass.exe,Successful Logon,2.272809930106275,92,0.1,Medium,1,normal
+2026-03-27 21:27:25,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,404,explorer.exe,Successful Logon,0.6299284464114433,30,0.1,Medium,1,normal
+2026-03-27 21:27:26,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,4279,powershell.exe,Successful Logon,1.8278750736751415,137,0.1,Medium,1,normal
+2026-03-27 21:27:27,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,1807,svchost.exe,Successful Logon,1.0563432979417853,150,0.1,Medium,1,normal
+2026-03-27 21:27:28,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,122,lsass.exe,Successful Logon,3.1825048095086497,119,0.1,Medium,1,normal
+2026-03-27 21:27:29,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,1890,explorer.exe,Successful Logon,2.9157505695831065,52,0.1,Medium,1,normal
+2026-03-27 21:27:30,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,2063,svchost.exe,Successful Logon,3.059760276440838,57,0.1,Medium,1,normal
+2026-03-27 21:27:31,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,5786,powershell.exe,Successful Logon,3.3718737329602306,69,0.1,Medium,1,normal
+2026-03-27 21:27:32,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,8219,powershell.exe,Successful Logon,3.895566263133314,70,0.1,Medium,1,normal
+2026-03-27 21:27:33,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,7407,explorer.exe,Successful Logon,1.5188921663899158,59,0.1,Medium,1,normal
+2026-03-27 21:27:34,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,5062,svchost.exe,Successful Logon,1.961359244843163,102,0.1,Medium,1,normal
+2026-03-27 21:27:35,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,4406,powershell.exe,Successful Logon,0.3368569327301977,128,0.1,Medium,1,normal
+2026-03-27 21:27:36,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,1498,explorer.exe,Successful Logon,2.638859309551374,116,0.1,Medium,1,normal
+2026-03-27 21:27:37,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,7651,explorer.exe,Successful Logon,2.7999679778265096,123,0.1,Medium,1,normal
+2026-03-27 21:27:38,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,3707,services.exe,Successful Logon,2.766670591569742,64,0.1,Medium,1,normal
+2026-03-27 21:27:39,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,7426,powershell.exe,Successful Logon,0.24261121657497808,54,0.1,Medium,1,normal
+2026-03-27 21:27:40,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,8507,svchost.exe,Successful Logon,2.6710221182249643,140,0.1,Medium,1,normal
+2026-03-27 21:27:41,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,4665,powershell.exe,Successful Logon,0.21660076805862952,37,0.1,Medium,1,normal
+2026-03-27 21:27:42,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,2350,explorer.exe,Successful Logon,1.401162326276211,106,0.1,Medium,1,normal
+2026-03-27 21:27:43,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,2019,explorer.exe,Successful Logon,1.2638794806974192,137,0.1,Medium,1,normal
+2026-03-27 21:27:44,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,4550,svchost.exe,Successful Logon,1.1571244057834449,122,0.1,Medium,1,normal
+2026-03-27 21:27:45,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,236,explorer.exe,Successful Logon,1.1224565514297549,125,0.1,Medium,1,normal
+2026-03-27 21:27:46,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,5130,lsass.exe,Successful Logon,1.795800952243355,142,0.1,Medium,1,normal
+2026-03-27 21:27:47,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,3239,lsass.exe,Successful Logon,3.9522398931064635,147,0.1,Medium,1,normal
+2026-03-27 21:27:48,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,6407,services.exe,Successful Logon,1.9239997622207026,122,0.1,Medium,1,normal
+2026-03-27 21:27:49,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,5068,services.exe,Successful Logon,0.8419270661751254,66,0.1,Medium,1,normal
+2026-03-27 21:27:50,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,4492,powershell.exe,Successful Logon,3.0877072420665788,37,0.1,Medium,1,normal
+2026-03-27 21:27:51,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,3784,lsass.exe,Successful Logon,1.3642173537031002,41,0.1,Medium,1,normal
+2026-03-27 21:27:52,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,1599,svchost.exe,Successful Logon,1.8401649957244062,141,0.1,Medium,1,normal
+2026-03-27 21:27:53,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,1448,services.exe,Successful Logon,1.656513637962458,39,0.1,Medium,1,normal
+2026-03-27 21:27:54,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,3914,svchost.exe,Successful Logon,1.511248262947183,68,0.1,Medium,1,normal
+2026-03-27 21:27:55,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,3586,explorer.exe,Successful Logon,1.9609432398543756,47,0.1,Medium,1,normal
+2026-03-27 21:27:56,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,4774,explorer.exe,Successful Logon,1.450766894075918,122,0.1,Medium,1,normal
+2026-03-27 21:27:57,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,682,powershell.exe,Successful Logon,0.8231112544858575,76,0.1,Medium,1,normal
+2026-03-27 21:27:58,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,8231,svchost.exe,Successful Logon,3.492157441612141,87,0.1,Medium,1,normal
+2026-03-27 21:27:59,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,6421,services.exe,Successful Logon,3.2087917024137598,119,0.1,Medium,1,normal
+2026-03-27 21:28:00,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,4104,explorer.exe,Successful Logon,0.8673285366726498,137,0.1,Medium,1,normal
+2026-03-27 21:28:01,4663,Critical,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Write,File System,4442,unknown.exe,Massive file system modification,88.0,2048,150.0,High,0,suspicious
+2026-03-27 21:28:02,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,3759,lsass.exe,Successful Logon,3.2736413198435774,37,0.1,Medium,1,normal
+2026-03-27 21:28:03,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,3481,services.exe,Successful Logon,3.243702408779969,135,0.1,Medium,1,normal
+2026-03-27 21:28:04,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,4191,lsass.exe,Successful Logon,3.1240234534217532,44,0.1,Medium,1,normal
+2026-03-27 21:28:05,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,655,explorer.exe,Successful Logon,0.3275027423881908,120,0.1,Medium,1,normal
+2026-03-27 21:28:06,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,4228,svchost.exe,Successful Logon,0.4624369819106311,134,0.1,Medium,1,normal
+2026-03-27 21:28:07,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,8861,powershell.exe,Successful Logon,2.303526803520742,63,0.1,Medium,1,normal
+2026-03-27 21:28:08,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,1718,powershell.exe,Successful Logon,3.73972346166657,120,0.1,Medium,1,normal
+2026-03-27 21:28:09,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,4249,lsass.exe,Successful Logon,3.0729830619396705,101,0.1,Medium,1,normal
+2026-03-27 21:28:10,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,7581,explorer.exe,Successful Logon,0.5629756137152752,89,0.1,Medium,1,normal
+2026-03-27 21:28:11,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,6214,powershell.exe,Successful Logon,3.279219080126965,78,0.1,Medium,1,normal
+2026-03-27 21:28:12,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,2217,powershell.exe,Successful Logon,3.7365087331320797,124,0.1,Medium,1,normal
+2026-03-27 21:28:13,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,3444,powershell.exe,Successful Logon,1.9358439439001724,50,0.1,Medium,1,normal
+2026-03-27 21:28:14,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,3824,explorer.exe,Successful Logon,3.1164627622331116,61,0.1,Medium,1,normal
+2026-03-27 21:28:15,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,6851,explorer.exe,Successful Logon,2.121454359056498,148,0.1,Medium,1,normal
+2026-03-27 21:28:16,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,1400,powershell.exe,Successful Logon,2.073950470275928,133,0.1,Medium,1,normal
+2026-03-27 21:28:17,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,8870,svchost.exe,Successful Logon,3.098446789514725,80,0.1,Medium,1,normal
+2026-03-27 21:28:18,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,3200,svchost.exe,Successful Logon,2.32034550795724,49,0.1,Medium,1,normal
+2026-03-27 21:28:19,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,5298,powershell.exe,Successful Logon,3.6268315222412153,111,0.1,Medium,1,normal
+2026-03-27 21:28:20,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,6306,services.exe,Successful Logon,3.745074127882739,61,0.1,Medium,1,normal
+2026-03-27 21:28:21,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,8913,svchost.exe,Successful Logon,1.0514440694688332,45,0.1,Medium,1,normal
+2026-03-27 21:28:22,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,7511,svchost.exe,Successful Logon,0.35670132794996356,30,0.1,Medium,1,normal
+2026-03-27 21:28:23,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,2199,powershell.exe,Successful Logon,0.9300171582972329,113,0.1,Medium,1,normal
+2026-03-27 21:28:24,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,4961,explorer.exe,Successful Logon,3.838265733351065,55,0.1,Medium,1,normal
+2026-03-27 21:28:25,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,6877,explorer.exe,Successful Logon,2.943107630454087,34,0.1,Medium,1,normal
+2026-03-27 21:28:26,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,6480,svchost.exe,Successful Logon,0.4433117153166273,96,0.1,Medium,1,normal
+2026-03-27 21:28:27,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3725,svchost.exe,Successful Logon,3.678785507561104,126,0.1,Medium,1,normal
+2026-03-27 21:28:28,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,5586,powershell.exe,Successful Logon,0.5290777493038469,54,0.1,Medium,1,normal
+2026-03-27 21:28:29,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,8267,svchost.exe,Successful Logon,1.7901633007018332,72,0.1,Medium,1,normal
+2026-03-27 21:28:30,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,7991,explorer.exe,Successful Logon,3.1907343066050595,43,0.1,Medium,1,normal
+2026-03-27 21:28:31,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,5327,svchost.exe,Successful Logon,3.0604363961734005,108,0.1,Medium,1,normal
+2026-03-27 21:28:32,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,1100,explorer.exe,Successful Logon,1.70560902190659,123,0.1,Medium,1,normal
+2026-03-27 21:28:33,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,6445,services.exe,Successful Logon,2.049356464982571,136,0.1,Medium,1,normal
+2026-03-27 21:28:34,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,6468,explorer.exe,Successful Logon,0.22026147890742692,37,0.1,Medium,1,normal
+2026-03-27 21:28:35,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,271,services.exe,Successful Logon,0.30973072401716706,89,0.1,Medium,1,normal
+2026-03-27 21:28:36,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,2050,powershell.exe,Successful Logon,3.2660357409361533,71,0.1,Medium,1,normal
+2026-03-27 21:28:37,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,2327,explorer.exe,Successful Logon,1.6733607634899494,104,0.1,Medium,1,normal
+2026-03-27 21:28:38,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,8008,services.exe,Successful Logon,0.8104666216764478,116,0.1,Medium,1,normal
+2026-03-27 21:28:39,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,6969,explorer.exe,Successful Logon,0.8907517466633353,105,0.1,Medium,1,normal
+2026-03-27 21:28:40,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,2644,explorer.exe,Successful Logon,1.6193466011920843,59,0.1,Medium,1,normal
+2026-03-27 21:28:41,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,5716,services.exe,Successful Logon,3.213373398968111,146,0.1,Medium,1,normal
+2026-03-27 21:28:42,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,6705,lsass.exe,Successful Logon,1.92582070660254,115,0.1,Medium,1,normal
+2026-03-27 21:28:43,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,4245,explorer.exe,Successful Logon,3.9497197726577964,134,0.1,Medium,1,normal
+2026-03-27 21:28:44,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,5905,services.exe,Successful Logon,3.3991012704979404,118,0.1,Medium,1,normal
+2026-03-27 21:28:45,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,6435,explorer.exe,Successful Logon,3.052843865630804,107,0.1,Medium,1,normal
+2026-03-27 21:28:46,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,8971,explorer.exe,Successful Logon,0.6213989246719389,115,0.1,Medium,1,normal
+2026-03-27 21:28:47,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,7858,lsass.exe,Successful Logon,1.8780788748276,150,0.1,Medium,1,normal
+2026-03-27 21:28:48,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,1791,powershell.exe,Successful Logon,1.6027229369908293,145,0.1,Medium,1,normal
+2026-03-27 21:28:49,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,5807,services.exe,Successful Logon,3.280179790225019,30,0.1,Medium,1,normal
+2026-03-27 21:28:50,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,3363,services.exe,Successful Logon,1.9556557333613633,53,0.1,Medium,1,normal
+2026-03-27 21:28:51,1102,Warning,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Info,Log Clear,6655,powershell.exe,The security log was cleared,5.0,150,0.5,System,1,suspicious
+2026-03-27 21:28:52,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3740,services.exe,Successful Logon,0.25289525503062754,73,0.1,Medium,1,normal
+2026-03-27 21:28:53,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,7758,explorer.exe,Successful Logon,2.302635230885181,112,0.1,Medium,1,normal
+2026-03-27 21:28:54,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,1872,explorer.exe,Successful Logon,0.6761976712824666,87,0.1,Medium,1,normal
+2026-03-27 21:28:55,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,2501,services.exe,Successful Logon,2.999088371881296,115,0.1,Medium,1,normal
+2026-03-27 21:28:56,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,3623,powershell.exe,Successful Logon,3.411725679868818,118,0.1,Medium,1,normal
+2026-03-27 21:28:57,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,8525,powershell.exe,Successful Logon,3.6361061788036464,131,0.1,Medium,1,normal
+2026-03-27 21:28:58,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,7534,svchost.exe,Successful Logon,3.25787327844368,64,0.1,Medium,1,normal
+2026-03-27 21:28:59,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,7739,svchost.exe,Successful Logon,2.175783002816828,138,0.1,Medium,1,normal
+2026-03-27 21:29:00,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,7142,powershell.exe,Successful Logon,2.2997794963996236,66,0.1,Medium,1,normal
+2026-03-27 21:29:01,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,6805,powershell.exe,Successful Logon,0.5737631869672929,92,0.1,Medium,1,normal
+2026-03-27 21:29:02,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,2751,svchost.exe,Successful Logon,1.7354613611311722,52,0.1,Medium,1,normal
+2026-03-27 21:29:03,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,3660,services.exe,Successful Logon,0.4797256584180648,96,0.1,Medium,1,normal
+2026-03-27 21:29:04,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,5068,services.exe,Successful Logon,0.7336976020619858,50,0.1,Medium,1,normal
+2026-03-27 21:29:05,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,4839,explorer.exe,Successful Logon,2.636425918026532,78,0.1,Medium,1,normal
+2026-03-27 21:29:06,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,8787,explorer.exe,Successful Logon,0.4689192434224597,101,0.1,Medium,1,normal
+2026-03-27 21:29:07,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,648,explorer.exe,Successful Logon,3.480650184499407,123,0.1,Medium,1,normal
+2026-03-27 21:29:08,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,2571,lsass.exe,Successful Logon,2.5287252500237605,62,0.1,Medium,1,normal
+2026-03-27 21:29:09,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,7602,lsass.exe,Successful Logon,0.42487276138493135,81,0.1,Medium,1,normal
+2026-03-27 21:29:10,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,1021,explorer.exe,Successful Logon,3.2772333651024614,122,0.1,Medium,1,normal
+2026-03-27 21:29:11,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,1005,powershell.exe,Successful Logon,0.1315500724019238,80,0.1,Medium,1,normal
+2026-03-27 21:29:12,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,2086,explorer.exe,Successful Logon,0.5090839206491523,121,0.1,Medium,1,normal
+2026-03-27 21:29:13,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,754,powershell.exe,Successful Logon,1.9393574218856438,134,0.1,Medium,1,normal
+2026-03-27 21:29:14,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,1617,services.exe,Successful Logon,3.2539474404373743,87,0.1,Medium,1,normal
+2026-03-27 21:29:15,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,330,powershell.exe,Successful Logon,0.8457437615525569,101,0.1,Medium,1,normal
+2026-03-27 21:29:16,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,8028,svchost.exe,Successful Logon,2.2400922954284623,37,0.1,Medium,1,normal
+2026-03-27 21:29:17,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,4336,explorer.exe,Successful Logon,3.7057165527297067,59,0.1,Medium,1,normal
+2026-03-27 21:29:18,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,7270,powershell.exe,Successful Logon,0.8234687885415012,37,0.1,Medium,1,normal
+2026-03-27 21:29:19,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,2492,svchost.exe,Successful Logon,1.7054475074814393,60,0.1,Medium,1,normal
+2026-03-27 21:29:20,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,1474,svchost.exe,Successful Logon,0.7414341131083043,149,0.1,Medium,1,normal
+2026-03-27 21:29:21,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,5607,services.exe,Successful Logon,1.1385936730892208,64,0.1,Medium,1,normal
+2026-03-27 21:29:22,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,3819,services.exe,Successful Logon,0.5517689953966395,84,0.1,Medium,1,normal
+2026-03-27 21:29:23,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,3095,services.exe,Successful Logon,2.5057574633115824,129,0.1,Medium,1,normal
+2026-03-27 21:29:24,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,4772,svchost.exe,Successful Logon,2.0279379099262167,58,0.1,Medium,1,normal
+2026-03-27 21:29:25,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,8191,lsass.exe,Successful Logon,0.7366799556819605,145,0.1,Medium,1,normal
+2026-03-27 21:29:26,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,378,explorer.exe,Successful Logon,1.372109102758877,66,0.1,Medium,1,normal
+2026-03-27 21:29:27,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,6099,services.exe,Successful Logon,3.6828189158811884,64,0.1,Medium,1,normal
+2026-03-27 21:29:28,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,1181,lsass.exe,Successful Logon,1.289645624139657,144,0.1,Medium,1,normal
+2026-03-27 21:29:29,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,1617,lsass.exe,Successful Logon,1.9799248640203728,83,0.1,Medium,1,normal
+2026-03-27 21:29:30,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,4748,explorer.exe,Successful Logon,0.9287887083941003,33,0.1,Medium,1,normal
+2026-03-27 21:29:31,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,3431,powershell.exe,Successful Logon,0.14712517395504035,31,0.1,Medium,1,normal
+2026-03-27 21:29:32,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,8105,svchost.exe,Successful Logon,1.8296160819131442,121,0.1,Medium,1,normal
+2026-03-27 21:29:33,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,4491,services.exe,Successful Logon,3.883460056788852,137,0.1,Medium,1,normal
+2026-03-27 21:29:34,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,8318,powershell.exe,Successful Logon,1.3812590857552383,134,0.1,Medium,1,normal
+2026-03-27 21:29:35,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,8723,powershell.exe,Successful Logon,1.5107446166313157,68,0.1,Medium,1,normal
+2026-03-27 21:29:36,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,3950,powershell.exe,Successful Logon,3.1861674391500223,59,0.1,Medium,1,normal
+2026-03-27 21:29:37,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,1888,powershell.exe,Successful Logon,1.3692685249480063,46,0.1,Medium,1,normal
+2026-03-27 21:29:38,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,7542,services.exe,Successful Logon,1.2877824801941349,86,0.1,Medium,1,normal
+2026-03-27 21:29:39,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,7693,explorer.exe,Successful Logon,1.9118583152520043,117,0.1,Medium,1,normal
+2026-03-27 21:29:40,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,6755,services.exe,Successful Logon,0.693699683248319,83,0.1,Medium,1,normal
+2026-03-27 21:29:41,10,Critical,Sysmon,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Read,Process Access,5389,mimikatz.exe,LSASS memory access detected,15.0,600,20.0,System,0,suspicious
+2026-03-27 21:29:42,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,3063,lsass.exe,Successful Logon,1.8221630860644047,60,0.1,Medium,1,normal
+2026-03-27 21:29:43,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,7550,explorer.exe,Successful Logon,2.360477527417826,119,0.1,Medium,1,normal
+2026-03-27 21:29:44,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,3753,services.exe,Successful Logon,2.864442666069426,99,0.1,Medium,1,normal
+2026-03-27 21:29:45,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,6198,svchost.exe,Successful Logon,0.7770414872800081,72,0.1,Medium,1,normal
+2026-03-27 21:29:46,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,5684,svchost.exe,Successful Logon,2.015124940016177,75,0.1,Medium,1,normal
+2026-03-27 21:29:47,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,1785,powershell.exe,Successful Logon,2.10128852343961,125,0.1,Medium,1,normal
+2026-03-27 21:29:48,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,4375,lsass.exe,Successful Logon,1.8840244247809113,42,0.1,Medium,1,normal
+2026-03-27 21:29:49,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3847,explorer.exe,Successful Logon,2.8606013201279654,111,0.1,Medium,1,normal
+2026-03-27 21:29:50,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,6772,services.exe,Successful Logon,2.473791759465811,84,0.1,Medium,1,normal
+2026-03-27 21:29:51,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,1937,powershell.exe,Successful Logon,2.670051701854925,64,0.1,Medium,1,normal
+2026-03-27 21:29:52,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,1712,svchost.exe,Successful Logon,2.484696309483101,110,0.1,Medium,1,normal
+2026-03-27 21:29:53,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,1443,services.exe,Successful Logon,3.321579198502583,144,0.1,Medium,1,normal
+2026-03-27 21:29:54,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,299,explorer.exe,Successful Logon,0.44351906645032746,145,0.1,Medium,1,normal
+2026-03-27 21:29:55,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,2790,services.exe,Successful Logon,0.3495736985601413,117,0.1,Medium,1,normal
+2026-03-27 21:29:56,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,1927,svchost.exe,Successful Logon,0.2839360930536814,45,0.1,Medium,1,normal
+2026-03-27 21:29:57,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,8210,services.exe,Successful Logon,3.0258456971150376,130,0.1,Medium,1,normal
+2026-03-27 21:29:58,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,2676,svchost.exe,Successful Logon,2.1343011409802113,57,0.1,Medium,1,normal
+2026-03-27 21:29:59,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,6740,lsass.exe,Successful Logon,0.3688096393412126,139,0.1,Medium,1,normal
+2026-03-27 21:30:00,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,5561,svchost.exe,Successful Logon,0.7152526141524467,123,0.1,Medium,1,normal
+2026-03-27 21:30:01,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,3715,powershell.exe,Successful Logon,1.4407537467957565,87,0.1,Medium,1,normal
+2026-03-27 21:30:02,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,7410,svchost.exe,Successful Logon,1.5152275415416745,87,0.1,Medium,1,normal
+2026-03-27 21:30:03,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,4652,explorer.exe,Successful Logon,0.4330054336920538,121,0.1,Medium,1,normal
+2026-03-27 21:30:04,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,3553,svchost.exe,Successful Logon,1.1861303040288471,50,0.1,Medium,1,normal
+2026-03-27 21:30:05,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,5109,lsass.exe,Successful Logon,3.9246596366137174,95,0.1,Medium,1,normal
+2026-03-27 21:30:06,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,6816,explorer.exe,Successful Logon,3.882687714825316,85,0.1,Medium,1,normal
+2026-03-27 21:30:07,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,2757,lsass.exe,Successful Logon,3.6944961613214864,94,0.1,Medium,1,normal
+2026-03-27 21:30:08,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,4318,svchost.exe,Successful Logon,2.1212790943835764,133,0.1,Medium,1,normal
+2026-03-27 21:30:09,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,647,explorer.exe,Successful Logon,0.15191396959053863,139,0.1,Medium,1,normal
+2026-03-27 21:30:10,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3187,svchost.exe,Successful Logon,3.2235107723002194,47,0.1,Medium,1,normal
+2026-03-27 21:30:11,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,7152,explorer.exe,Successful Logon,1.0673844542444801,126,0.1,Medium,1,normal
+2026-03-27 21:30:12,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,8946,powershell.exe,Successful Logon,2.269875330149522,117,0.1,Medium,1,normal
+2026-03-27 21:30:13,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,6443,svchost.exe,Successful Logon,1.1287655953438567,62,0.1,Medium,1,normal
+2026-03-27 21:30:14,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,287,svchost.exe,Successful Logon,2.5988549404559436,101,0.1,Medium,1,normal
+2026-03-27 21:30:15,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,7748,services.exe,Successful Logon,2.111866931087657,48,0.1,Medium,1,normal
+2026-03-27 21:30:16,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,5584,services.exe,Successful Logon,1.4769100300060605,120,0.1,Medium,1,normal
+2026-03-27 21:30:17,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,6257,powershell.exe,Successful Logon,3.090109686794866,85,0.1,Medium,1,normal
+2026-03-27 21:30:18,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,1096,svchost.exe,Successful Logon,0.4593004499090566,67,0.1,Medium,1,normal
+2026-03-27 21:30:19,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,5728,powershell.exe,Successful Logon,0.6717321969685962,40,0.1,Medium,1,normal
+2026-03-27 21:30:20,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,3647,lsass.exe,Successful Logon,2.893860351340952,86,0.1,Medium,1,normal
+2026-03-27 21:30:21,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,354,lsass.exe,Successful Logon,0.41663103419303216,133,0.1,Medium,1,normal
+2026-03-27 21:30:22,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,5756,explorer.exe,Successful Logon,1.9180495568772375,116,0.1,Medium,1,normal
+2026-03-27 21:30:23,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,1487,services.exe,Successful Logon,0.2342841695882149,119,0.1,Medium,1,normal
+2026-03-27 21:30:24,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,1002,lsass.exe,Successful Logon,2.8726308003338277,39,0.1,Medium,1,normal
+2026-03-27 21:30:25,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,1138,lsass.exe,Successful Logon,0.5971142048188602,122,0.1,Medium,1,normal
+2026-03-27 21:30:26,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,6133,powershell.exe,Successful Logon,0.1574681351239154,37,0.1,Medium,1,normal
+2026-03-27 21:30:27,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,1987,services.exe,Successful Logon,1.6658703886429864,103,0.1,Medium,1,normal
+2026-03-27 21:30:28,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,2554,explorer.exe,Successful Logon,2.3075662177611647,135,0.1,Medium,1,normal
+2026-03-27 21:30:29,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,6817,services.exe,Successful Logon,2.1057072775816232,85,0.1,Medium,1,normal
+2026-03-27 21:30:30,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,3136,lsass.exe,Successful Logon,2.410055970920655,73,0.1,Medium,1,normal
+2026-03-27 21:30:31,7045,Warning,Service Control,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Install,Service,4210,services.exe,New service PSEXESVC installed,2.0,50,10.0,System,1,suspicious
+2026-03-27 21:30:32,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,1485,svchost.exe,Successful Logon,2.2292698639412607,55,0.1,Medium,1,normal
+2026-03-27 21:30:33,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,784,explorer.exe,Successful Logon,2.0357762804052233,85,0.1,Medium,1,normal
+2026-03-27 21:30:34,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,5954,explorer.exe,Successful Logon,3.083788225759785,143,0.1,Medium,1,normal
+2026-03-27 21:30:35,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,8962,svchost.exe,Successful Logon,1.6958463379356101,76,0.1,Medium,1,normal
+2026-03-27 21:30:36,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,3573,powershell.exe,Successful Logon,2.5404902937381486,51,0.1,Medium,1,normal
+2026-03-27 21:30:37,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,7566,lsass.exe,Successful Logon,3.3976775496741314,131,0.1,Medium,1,normal
+2026-03-27 21:30:38,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,6848,powershell.exe,Successful Logon,1.5560479317189229,86,0.1,Medium,1,normal
+2026-03-27 21:30:39,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,2823,lsass.exe,Successful Logon,0.3767175779378781,89,0.1,Medium,1,normal
+2026-03-27 21:30:40,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,2461,lsass.exe,Successful Logon,0.5269477374808554,102,0.1,Medium,1,normal
+2026-03-27 21:30:41,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,8040,services.exe,Successful Logon,2.567987070378688,91,0.1,Medium,1,normal
+2026-03-27 21:30:42,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,8815,services.exe,Successful Logon,2.336864459073215,93,0.1,Medium,1,normal
+2026-03-27 21:30:43,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,5118,explorer.exe,Successful Logon,1.6449147222042666,82,0.1,Medium,1,normal
+2026-03-27 21:30:44,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,4449,lsass.exe,Successful Logon,0.5790112963337968,59,0.1,Medium,1,normal
+2026-03-27 21:30:45,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,277,lsass.exe,Successful Logon,2.834949956956226,132,0.1,Medium,1,normal
+2026-03-27 21:30:46,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,5903,explorer.exe,Successful Logon,1.904028648279309,112,0.1,Medium,1,normal
+2026-03-27 21:30:47,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,1964,services.exe,Successful Logon,3.830031418014899,122,0.1,Medium,1,normal
+2026-03-27 21:30:48,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,5711,svchost.exe,Successful Logon,0.33872794528719236,98,0.1,Medium,1,normal
+2026-03-27 21:30:49,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,7752,explorer.exe,Successful Logon,3.5747959566857515,53,0.1,Medium,1,normal
+2026-03-27 21:30:50,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,5657,svchost.exe,Successful Logon,3.087800603700526,33,0.1,Medium,1,normal
+2026-03-27 21:30:51,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,4697,svchost.exe,Successful Logon,1.4942089963689131,143,0.1,Medium,1,normal
+2026-03-27 21:30:52,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,3778,powershell.exe,Successful Logon,0.1711291977030523,45,0.1,Medium,1,normal
+2026-03-27 21:30:53,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,6548,services.exe,Successful Logon,2.1990087535028766,70,0.1,Medium,1,normal
+2026-03-27 21:30:54,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,7579,explorer.exe,Successful Logon,2.0655222352415907,77,0.1,Medium,1,normal
+2026-03-27 21:30:55,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,File System,3621,explorer.exe,Successful Logon,0.31580556639940704,140,0.1,Medium,1,normal
+2026-03-27 21:30:56,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,6499,explorer.exe,Successful Logon,1.2007684633187283,143,0.1,Medium,1,normal
+2026-03-27 21:30:57,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,2457,services.exe,Successful Logon,2.519998637235443,61,0.1,Medium,1,normal
+2026-03-27 21:30:58,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,2362,services.exe,Successful Logon,2.975327660147763,66,0.1,Medium,1,normal
+2026-03-27 21:30:59,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,1683,explorer.exe,Successful Logon,2.483216496237652,131,0.1,Medium,1,normal
+2026-03-27 21:31:00,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,2101,powershell.exe,Successful Logon,0.35762927208545336,82,0.1,Medium,1,normal
+2026-03-27 21:31:01,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,1448,lsass.exe,Successful Logon,3.731448775673881,144,0.1,Medium,1,normal
+2026-03-27 21:31:02,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Object Access,4959,lsass.exe,Successful Logon,1.7147978185550279,64,0.1,Medium,1,normal
+2026-03-27 21:31:03,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,8541,powershell.exe,Successful Logon,0.35564304249525813,80,0.1,Medium,1,normal
+2026-03-27 21:31:04,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,5010,svchost.exe,Successful Logon,3.7102544633568777,134,0.1,Medium,1,normal
+2026-03-27 21:31:05,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,7442,explorer.exe,Successful Logon,1.0217607509257673,89,0.1,Medium,1,normal
+2026-03-27 21:31:06,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,7890,lsass.exe,Successful Logon,3.6591525486986,115,0.1,Medium,1,normal
+2026-03-27 21:31:07,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,1344,explorer.exe,Successful Logon,0.8979846244958032,47,0.1,Medium,1,normal
+2026-03-27 21:31:08,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Object Access,6763,services.exe,Successful Logon,0.7606508417723639,52,0.1,Medium,1,normal
+2026-03-27 21:31:09,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Process Creation,7501,lsass.exe,Successful Logon,0.18085268324594236,90,0.1,Medium,1,normal
+2026-03-27 21:31:10,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Logon,5857,explorer.exe,Successful Logon,0.7352514390129857,65,0.1,Medium,1,normal
+2026-03-27 21:31:11,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Object Access,3341,svchost.exe,Successful Logon,0.6985508544868225,93,0.1,Medium,1,normal
+2026-03-27 21:31:12,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,7951,powershell.exe,Successful Logon,1.055200223922256,90,0.1,Medium,1,normal
+2026-03-27 21:31:13,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,6343,powershell.exe,Successful Logon,2.8249936857975837,63,0.1,Medium,1,normal
+2026-03-27 21:31:14,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,7702,explorer.exe,Successful Logon,0.5804753663273152,122,0.1,Medium,1,normal
+2026-03-27 21:31:15,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,Logon,5469,svchost.exe,Successful Logon,2.294443003446936,50,0.1,Medium,1,normal
+2026-03-27 21:31:16,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,File System,656,svchost.exe,Successful Logon,0.9869071969079223,145,0.1,Medium,1,normal
+2026-03-27 21:31:17,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Logon,3049,svchost.exe,Successful Logon,0.7947080604637383,91,0.1,Medium,1,normal
+2026-03-27 21:31:18,4624,Information,Security-Auditing,WIN-SOC-PROD-01,WIN-SOC-PROD\Admin,Logon,File System,334,explorer.exe,Successful Logon,3.6931465647119053,71,0.1,Medium,1,normal
+2026-03-27 21:31:19,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\SYSTEM,Logon,Process Creation,1103,powershell.exe,Successful Logon,2.660310486112655,52,0.1,Medium,1,normal
+2026-03-27 21:31:20,4624,Information,Security-Auditing,WIN-SOC-PROD-01,NT AUTHORITY\LOCAL SERVICE,Logon,Process Creation,8755,explorer.exe,Successful Logon,1.6080136365323296,81,0.1,Medium,1,normal

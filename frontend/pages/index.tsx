@@ -66,19 +66,12 @@ export default function HomePage() {
   }
 
   const downloadSample = () => {
-    const csvContent = 
-      "TimeGenerated,Source,EventID,Category,User,Computer,Description\n" +
-      "2026-03-27T10:00:00,Microsoft-Windows-Security-Auditing,4624,Logon,CORP\\jdoe,WORKSTATION-01,An account was successfully logged on.\n" +
-      "2026-03-27T10:05:00,Microsoft-Windows-Security-Auditing,4625,Logon,CORP\\jdoe,WORKSTATION-01,An account failed to log on.\n" +
-      "2026-03-27T10:10:00,Microsoft-Windows-Security-Auditing,4672,Special Logon,SYSTEM,WORKSTATION-01,Special privileges assigned to new logon."
-    
-    const blob = new Blob([csvContent], { type: "text/csv" })
-    const url = window.URL.createObjectURL(blob)
     const a = document.createElement("a")
-    a.href = url
-    a.download = "sample_security_logs.csv"
+    a.href = "/DEMO_logs.csv"
+    a.download = "DEMO_logs.csv"
+    document.body.appendChild(a)
     a.click()
-    window.URL.revokeObjectURL(url)
+    document.body.removeChild(a)
   }
 
   const getStatusConfig = (status: string) => {
