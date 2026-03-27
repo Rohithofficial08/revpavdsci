@@ -98,14 +98,54 @@ export default function SummaryPage() {
   }
 
   const generateSummary = async () => {
+    // Provide a mock AI summary for demo purposes
     setGenerating(true)
     try {
+<<<<<<< Updated upstream
       const data = await apiFetch(`/api/v1/analyses/${id}/summary/generate?mode=${mode}`, {
         method: "POST",
       })
       setSummary(data)
+=======
+<<<<<<< Updated upstream
+      // The new API generates summary on the fly with GET /summary
+      const data = await getScanSummary(id as string)
+      if (data) {
+        setSummary({
+          ...data,
+          content_markdown: data.executive_briefing,
+          sections: {
+            executive_summary: data.executive_briefing,
+            attack_narrative: "See detailed report below.",
+            affected_assets: "Refer to Keys Findings section.",
+            remediation_steps: "Implement security patches and rotate credentials."
+          }
+        })
+      }
+>>>>>>> Stashed changes
     } catch (err: any) {
       alert(`Failed: ${err.message}`)
+=======
+      const mock: Summary = {
+        id: `${id}-mock-summary`,
+        mode,
+        model: "gpt-mock-1",
+        cached: false,
+        tokens_used: 4321,
+        content_markdown: `# Executive Summary\n\nBetween 2026-03-20T02:10:00Z and 2026-03-20T04:45:00Z, the environment experienced a focused intrusion campaign targeting user authentication and lateral movement. The highest-confidence signals include repeated failed logins from two external IPs, anomalous process creation on internal hosts (host-03, host-07), and multiple outbound connections to uncommon ports (TCP/4444, TCP/8082). Estimated impact: potential credential compromise and temporary data staging on affected hosts.\n\n---\n\n## Top Findings (summary)\n1. Repeated failed/successful login attempts for service accounts from 198.51.100.23 and 203.0.113.45 (observed ~120 attempts).\n2. Suspicious process execution: \`powershell.exe\` spawning \`curl.exe\` on host-03 shortly after successful login.\n3. High-volume outbound connections to unknown external endpoints on ports 4444 and 8082 from host-07.\n4. Multiple alerts flagged by ML anomaly detection indicating unusual user behavior (alice, bob).\n\n---\n\n## Timeline (high level)\n- 02:12 UTC: Initial failed login bursts from 198.51.100.23 against user accounts.\n- 02:18 UTC: Successful authentication for \`svc-backup\` on host-03.\n- 02:25 UTC: Execution of \`powershell.exe\` with encoded commands on host-03.\n- 03:05 UTC: Outbound connections from host-07 to 198.51.100.23:4444.\n- 04:10 UTC: ML anomaly spikes for user \`alice\` and \`bob\`.\n\n---\n\n## Indicators of Compromise (IOCs)\n- IPs: 198.51.100.23, 203.0.113.45\n- Ports: 4444, 8082\n- Processes: powershell.exe -> curl.exe\n- Sample hash (observed in staging): \`e3b0c44298fc1c149afbf4c8996fb924\`\n\n---\n\n## Recommended Immediate Actions (Priority)\n1. Isolate host-03 and host-07 from network access (containment).\n2. Force reset credentials for affected service accounts and users (svc-backup, alice, bob).\n3. Block outbound IPs and ports at perimeter (198.51.100.23, 203.0.113.45; TCP/4444, TCP/8082).\n4. Preserve forensic images of affected hosts and collect relevant logs (auth, process, network).\n\n---\n\n## Suggested Triage Playbook\n- Triage owners: SOC Tier 2 (investigate), IR Team (contain/remediate), Network Team (block IPs).\n- Suggested tickets: \"Contain host-03 & host-07\", \"Rotate svc-backup credentials\", \"Collect forensic evidence for host-03\".\n\n## Confidence & Notes\n- Findings 1-3: High confidence (correlated across auth, process, and network signals).\n- ML anomalies: Medium confidence — recommend validating with additional logs.\n\n## Next Steps\n- Expand detection coverage for lateral movement and credential abuse.\n- Run focused EDR scans on affected hosts.\n- Review recent administrative changes and scheduled tasks.\n`,
+        sections: {
+          executive_summary: `Between 2026-03-20T02:10:00Z and 2026-03-20T04:45:00Z, the environment experienced a focused intrusion campaign targeting authentication and lateral movement. Key signals: repeated failed logins from two external IPs, suspicious process execution on host-03, and outbound connections from host-07 to uncommon ports. Estimated impact: credential compromise for at least one service account and data staging on host(s).`,
+          attack_narrative: `An attacker likely performed credential-stuffing or brute-force against several accounts from external IPs (198.51.100.23, 203.0.113.45). After a successful authentication to svc-backup on host-03, the attacker executed a PowerShell payload that staged tools (curl) and initiated outbound beacons to external command-and-control endpoints (ports 4444, 8082). ML anomalies for users alice and bob suggest potential account takeover or unusual privilege escalation activity.`,
+          affected_assets: `Hosts: host-03, host-07; Users: svc-backup, alice, bob; Network: connections to 198.51.100.23:4444 and 203.0.113.45:8082; Processes: powershell.exe -> curl.exe; Suspected file hash: e3b0c44298fc1c149afbf4c8996fb924.`,
+          remediation_steps: `1) Contain hosts (isolate host-03 and host-07).\n2) Rotate credentials for impacted users and service accounts.\n3) Block the identified IPs and ports at the firewall.\n4) Preserve forensic data and perform EDR scans for persistence.\n5) Harden MFA and authentication rate-limiting.\n6) Review and patch any vulnerable services identified during triage.`,
+        },
+        created_at: new Date().toISOString(),
+      }
+
+      // small delay to show generating state
+      await new Promise((r) => setTimeout(r, 500))
+      setSummary(mock)
+>>>>>>> Stashed changes
     } finally {
       setGenerating(false)
     }
